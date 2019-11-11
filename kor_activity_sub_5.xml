@@ -42,6 +42,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="Hanbok"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -49,6 +50,7 @@
                         android:id="@+id/textView18"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Hanbok merupakan ciri khas unik untuk pakaian tradisional orang Korea. Secara historis, orang Korea mengenakan pakaian mereka sendiri, sementara raja dan bangsawan mengenakan berbagai kostum, menciptakan busana dan berpakaian sesuai dengan formalitas. Kain berwarna ini menyimbolkan sebuah jamuan makan, dan polanya berbeda sesuai dengan berbagai festival khususnya seperti gaun raja, tetapi sebagian besar rakyat jelata mengenakan pakaian putih, dan komposisi dasar hanbok terdapat rok, jeogori, dan celana, komposisi pakaian tersebut tetap tidak berubah selama bertahun-tahun. Pertahankan kerangkanya."
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -82,6 +84,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="한복"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -89,6 +92,7 @@
                         android:id="@+id/textView28"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="한복은 한민족 고유의 옷이다. 역사적으로 한민족은 고유한 의복을 입으며 왕과 귀족은 여러 복식을 도입해 입으면서 유행을 만들어 내고 격식에 따라 다른 옷을 입기도 하였다. 색이 들어간 천은 관복으로서 각 시대의 왕이 내린 복식금제에 따라 다른 양상을 띠기도 하였으나 대다수의 평민들은 흰색 옷을 즐겨 입었으며 한복의 기본 구성인 치마와 저고리, 바지 등은 변치 않고 오랜 세월 동안 기본 골격을 유지하고 있다."
                         android:textColor="#FFFFFF" />
 
                     <ImageView
