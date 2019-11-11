@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hanin_project">
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAikWm5Uwod6sBYY0TaiP1oKAJVzQ4Htkw"/>
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".KorMapActivity_1"/>
+        <activity android:name=".KorMapActivity_2"/>
+        <activity android:name=".KorMapActivity_3"/>
+        <activity android:name=".IndMapActivity_1"/>
+        <activity android:name=".IndMapActivity_2"/>
+        <activity android:name=".IndMapActivity_3"/>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".KorActivity_1"/>
+        <activity android:name=".KorActivity_2"/>
+        <activity android:name=".KorActivity_3"/>
+        <activity android:name=".KorActivity_4"/>
+        <activity android:name=".KorActivity_5"/>
+        <activity android:name=".KorActivity_6"/>
+        <activity android:name=".IndActivity_1" />
+        <activity android:name=".IndActivity_2" />
+        <activity android:name=".IndActivity_3" />
+        <activity android:name=".IndActivity_4" />
+        <activity android:name=".IndActivity_5" />
+        <activity android:name=".IndActivity_6">
+        </activity>
+    </application>
+
+</manifest>
