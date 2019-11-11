@@ -32,6 +32,7 @@
                         android:id="@+id/textView16"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Indonesia merupakan negara yang kaya, tidak hanya kekayaan alam saja, Indonesia juga memiliki berbagai macam kuliner yang khas dan tentunya nikmat serta lezat. Setiap daerah di Tanah Air pasti memiliki makanan atau kuliner yang khas dari daerah daerah tersebut. Rempah yang melimpah di Indonesia membuat makanan-makanan Indonesia kaya akan rempah yang menciptakan rasa begitu menggoda. Bahkan, cita rasa rempah yang dihasilkan dari warisan kuliner Nusantara ini tersohor hingga mancanegara. Berikut adalah beberapa makanan khas Indonesia yang telah mendunia."
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -47,6 +48,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="Rendang"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -54,6 +56,7 @@
                         android:id="@+id/textView18"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Rendang adalah makanan khas Indonesia yang berasal dari Padang, Sumatera Barat. Nikmat dan lezatnya rendang berhasil membuatnya terpilih di posisi paling atas dari 50 makanan terlezat di dunia versi CNN internasional pada tahun 2011. Rendang  dibuat dari daging sapi dengan rasa yang pedas dan menggunakan campuran rempah-rempah asli Indonesia. Menurut sebuah data yang dilansir dari laman internet, rendang bahkan menjadi menu makanan favorit di sebuah hotel di Jerman dalam rangka festival kuliner masakan asli Indonesia. Acara ini diselenggarakan untuk memperingati 60 tahun persahabatan Indonesia-Jerman. Rendang dinobatkan sebagai salah satu makanan khas indonesia yang mendunia. "
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -69,6 +72,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="Soto"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -76,6 +80,7 @@
                         android:id="@+id/textView23"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Soto adalah kuliner khas Nusantara berupa hidangan berkuah yang terbuat dari kaldu daging dan sayuran. Ada banyak varian soto yang tersebar di berbagai wilayah Indonesia, antara lain soto Betawi, coto Makassar, soto ayam, soto sapi, dan soto babat. Setiap varian soto tentunya mempunyai ciri khas yang berbeda dan masing-masing mempunyai cita rasa tersendiri, namun tetap menunjukkan keaslian kuliner Indonesia yang kaya rempah-rempah dan begitu sedap saat disantap. Seperti yang dilansir dari sebuah laman artikel, tak hanya di Indonesia saja, soto ayam juga ada di sebuah festival makanan di Jepang. Rupanya makanan soto ayam telah menjadi langganan di acara ini. Acara ini sendiri diselenggarakan oleh pelajar Indonesia yang tergabung dalam PPIJ-Komsat Ibaraki. Terbukti dalam acara besar seperti ini soto ayam dapat menjadi makanan yang diterima dengan baik oleh masyarakat Jepang. "
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -91,6 +96,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="Gado-Gado"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -98,6 +104,7 @@
                         android:id="@+id/textView24"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text='Di luar negeri terdapat makanan yang disebut dengan salad. Di Indonesia terdapat gado-gado yang merupakan sebutan saladnya orang Indonesia. Gado-gado termasuk masakan tradisional yang menyehatkan karena didominasi oleh bahan-bahan yang berasal dari sayuran. Dalam satu porsi gado-gado terdapat banyak jenis sayuran yang direbus dan disajikan dengan sambal atau saus kacang yang nantinya akan menjadi bumbu utama untuk sayur-sayuran tersebut. Seperti yang dilansir dari laman idntimes.com, makanan khas Jawa yang bisa disebut sebagai "saladnya" Indonesia ini cukup terkenal di luar negeri, terutama di Napoli, Italia. Hal ini dikarenakan gado-gado pernah diikutsertakan dalam kompetisi yang bersaing dengan hidangan dari negara-negara lainnya dan meraih juara pertama pada tahun 2010 silam. Terhitung dari nilai estetika yang dimiliki, keunikan bahan yang digunakan, serta cita rasa yang dinilai sangat tinggi. '
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -113,6 +120,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="Nasi Goreng"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -120,6 +128,7 @@
                         android:id="@+id/textView25"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Nasi goreng adalah makanan berupa nasi yang digoreng bersama kecap dan bumbu lain yang kemudian diaduk-aduk sampai nasi berubah menjadi kecokelatan. Di negara negara lain juga terdapat nasi goreng, akan tetapi nasi goreng asal Indonesia mempunyai ciri khas tersendiri karena olahannya dicampur dengan bumbu dan rempah rempah asli Indonesia. Bahkan saat presiden Amerika Serikat ke-44, Barack Obama mengunjungi Indonesia, ia sangat terpukau dengan menu kuliner yang satu ini. Inilah bukti bahwa nasi goreng merupakan makanan tradisional Indonesia yang mendunia. Tidak hanya Amerika, ternyata di beberapa ajang festival kuliner Tiongkok, menu yang satu ini menjadi salah satu sajian yang sangat digemari. "
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -135,6 +144,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="Sate"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -142,6 +152,7 @@
                         android:id="@+id/textView26"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Seperti halnya soto, terdapat beberapa varian sate di Indonesia yang beraneka ragam. Contohnya yaitu sate Madura, sate Padang, sate lilit, sate buntel, dan lain lain. Seperti yang dilansir dari laman abuelaskitchen.com, sebuah bazar internasional yang diselenggarakan di China 2013 silam menjadi bukti sate ayam digemari oleh halayak. Kegiatan ini tidak hanya menyelenggarakan kuliner Indonesia saja, namun yang menjadi sebuah kebanggan adalah sate ayam terjual habis disantap masyarakat setempat. Tak hanya di bazar saja, sebuah restoran masakan Indonesia mampu bersaing di tengah restoran termahal di New York, Amerika. Dengan menu andalannya sate ayam, restoran Satay Junction mampu menarik warga Amerika. Meski terbilang kecil, restoran ini selalu dipadati oleh warga Amerika yang mencintai makanan khas Indonesia. Selain mampu bertahan, jumlah pengunjungnya pun terus bertamabah. "
                         android:textColor="#FFFFFF" />
 
                 </LinearLayout>
@@ -157,6 +168,7 @@
                         android:id="@+id/textView19"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="인도네시아는 천연 자원뿐만 아니라 부유 한 나라이며, 다양한 독특한 요리를 제공하며 물론 맛있고 맛있습니다. 국가의 각 지역에는 해당 지역의 전형적인 음식 또는 요리가 있어야합니다. 인도네시아의 풍부한 향신료는 인도네시아 음식에 향신료가 풍부하여 맛을 유혹합니다. 실제로 군도의 요리 유산에서 생산 된 향신료 맛은 외국에서 유명합니다. 전 세계에있는 인도네시아 특산품을 소개합니다."
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -172,6 +184,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="렌당"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -179,6 +192,7 @@
                         android:id="@+id/textView28"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="렌당 (Rendang)은 서 수마트라주의 파당에서 유래 한 전형적인 인도네시아 음식입니다. 맛있고 맛있는 렌당은 2011 년 CNN 국제 버전 인 세계에서 가장 맛있는 50 가지 음식의 최상위 위치에 선정되었습니다. 렌당은 매운 맛의 쇠고기로 만들어졌으며 인도네시아 고유의 향신료를 혼합하여 사용합니다. 인터넷 사이트에서 인용 한 데이터에 따르면, Rendang은 정통 인도네시아 요리 요리 축제의 맥락에서 독일의 호텔에서 가장 좋아하는 음식 메뉴가되었습니다. 이 행사는 60 년간의 인도네시아-독일 우정을 기념하기 위해 개최되었습니다. 렌당은 전 세계적으로 전형적인 인도네시아 음식 중 하나로 선정되었습니다. "
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -194,6 +208,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="소토"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -201,6 +216,7 @@
                         android:id="@+id/textView29"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="소토는 육류와 채소로 만든 수프 접시 형태의 군도 요리입니다. soto Betawi, coto Makassar, soto ayam, soto sapi 및 soto babat을 포함하여 인도네시아의 여러 지역에 흩어져있는 많은 종류의 soto가 있습니다. Soto의 각 변종은 확실히 다른 특성을 가지고 있으며 각각 고유 한 맛을 가지고 있지만 향신료가 풍부하고 먹을 때 인도네시아 요리의 진품을 여전히 보여줍니다. 인도네시아뿐만 아니라 기사 페이지에 따르면 닭고기 수프도 일본의 음식 축제에 있습니다. 이 행사에서 소토 아얌 음식이 구독이 된 것 같습니다. 이 행사 자체는 PPIJ-Komsat Ibaraki 회원 인 인도네시아 학생들이 주최했습니다. 이와 같은 큰 행사에서 입증 된 닭고기 수프는 일본인들로부터 좋은 음식이 될 수 있습니다. "
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -216,6 +232,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="가도가도"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -223,6 +240,7 @@
                         android:id="@+id/textView30"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text='해외에는 샐러드라는 음식이 있습니다. 인도네시아에는 인도네시아 샐러드 인 가도가 있습니다. 야채에서 유래 한 식재료가 주류를 이루는 건강한 전통 요리를 포함한 가도. 가도의 일부에는 삼발 또는 땅콩 소스와 함께 삶아서 제공되는 많은 종류의 야채가 있으며, 이러한 야채의 주요 조미료가 될 것입니다. idntimes.com 페이지에서보고 된 바와 같이, "샐러드"인도네시아라고 할 수있는 Javanese 특수 음식은 해외, 특히 이탈리아 나폴리에서 잘 알려져 있습니다. 가도 가도는 다른 나라의 요리와 경쟁하여 2010 년에 1 위를 차지한 경쟁에 포함 되었기 때문입니다. 소유 한 미적 가치, 사용 된 재료의 독창성 및 매우 높은 맛으로 계산됩니다 '
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -238,6 +256,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="나시고렝"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -245,6 +264,7 @@
                         android:id="@+id/textView31"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="볶음밥은 간장과 다른 조미료로 볶은 쌀 형태의 음식으로 쌀이 갈색으로 변할 때까지 저어줍니다. 다른 나라에서도 볶음밥이 있지만 인도네시아 산 볶음밥은 인도네시아 고유의 허브와 향신료와 혼합하여 가공되기 때문에 고유 한 특징이 있습니다. 버락 오바마 대통령은 미국의 44 대 대통령이 인도네시아를 방문했을 때도이 요리 메뉴에 깊은 인상을 받았다. 이것은 볶음밥이 전 세계적으로 전통적인 인도네시아 음식이라는 증거입니다. 미국뿐만 아니라 여러 중국 요리 축제 에서이 메뉴가 가장 인기있는 요리 중 하나가되었습니다 "
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -260,6 +280,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="사테이"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -267,6 +288,7 @@
                         android:id="@+id/textView32"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="소토와 마찬가지로 인도네시아에는 다양한 종류의 satay가 있습니다. 예를 들어 satay Madura, satay Padang, 둘러 싸인 satay, satay buntel 등이 있습니다. abuelaskitchen.com 페이지에서보고 된 바와 같이, 2013 년 중국에서 개최 된 국제 바자회는 치킨 사테이 할라 약에게 인기가 있다는 증거입니다. 이 활동은 인도네시아 요리를 제공 할뿐만 아니라 자부심이되는 것은 지역 사회에서 판매되는 치킨 사테이입니다. "
                         android:textColor="#FFFFFF" />
 
                 </LinearLayout>
