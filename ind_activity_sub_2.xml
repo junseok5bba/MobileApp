@@ -32,7 +32,8 @@
                         android:id="@+id/textView16"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColor="#FFFFFF" />
+                        android:text="Indonesia memiliki 34 provinsi dan semuanya memiliki keunikan budayanya masing-masing. Salah satunya adalah rumah adat yang bentuknya juga berbeda-beda tiap pulaunya.  Namun, keberadaan rumah adat semakin terpinggirkan, digantikan rumah berdinding beton yang bergaya modern atau mengambil inspirasi dari luar negeri. Rumah-rumah adat tersebut kini kebanyakan jadi lokasi museum atau tempat pamer sepi pengunjung. Padahal, setiap rumah adat ini memiliki ciri khas, filosofi, dan sejarah yang menambah kekayaan budaya nusantara. Bila eksistensinya tak dipertahankan, kekayaan budaya yang dimiliki juga akan hilang.  Berikut enam rumah tradisional di Indonesia yang keberadaannya makin langka, "
+                        android:textColor="#FFFFFF"/>
 
                     <ImageView
                         android:id="@+id/ind1"
@@ -46,14 +47,16 @@
                         android:id="@+id/textView5"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Rumah Gadang"
+                        android:textSize="20dp"
                         android:gravity="center_horizontal"
-                        android:textColor="#FFFFFF"
-                        android:textSize="20dp" />
+                        android:textColor="#FFFFFF" />
 
                     <TextView
                         android:id="@+id/textView18"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text='Rumah Gadang ini berasal dari Sumatera Barat dan berasal dari suku Minangkabau. Ciri khas dari rumah adat ini adalah bentuk atapnya yang menyerupai sepasang tanduk kerbau dan badannya yang berbentuk seperti kapal. Dulunya, rumah ini ditinggali oleh keluarga besar sehingga pada saat ada acara tertentu, rumah beralih fungsi menjadi tempat upacara atau pernikahan. Sejarah dari Rumah Gadang ada beberapa versi, seperti asal muasal bentuk atap yang seperti tanduk kerbau karena menangnya orang Minang dalam peristiwa adu kerbau melawan orang Jawa. Sedangkan, bentuk rumah yang menyerupai kapal karena nenek moyang berlayar dan menarik kapalnya ke daratan agar tidak rusak terkena air laut, kemudian kapal tersebut berubah menjadi tempat tinggal dan diberi atap. Terlepas dari kebenaran cerita yang ada, estetika rumah adat ini patut diacungi jempol. Motif-motif yang terukir di dindingnya semakin membuat indah rumah ini. Kata "gadang" dapat diartikan sebagai besar, ini bukan dilihat dari ukuran rumahnya, melainkan fungsinya yang penting dan berdampak besar. '
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -69,6 +72,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="Rumah Joglo"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -76,6 +80,7 @@
                         android:id="@+id/textView23"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Berpindah ke Pulau Jawa, rumah adat ini dinamakan Joglo. Istilah nama 'joglo' diambil dari dua kata, yakni 'tajug' dan 'loro' yang berarti penggabungan dua tajug. Bentuk atap pada rumah ini meruncing ke atas dan dikatakan mengacu pada bentuk gunung. Gunung bagi masyarakat Jawa merupakan simbol yang sakral karena diyakini sebagai tempat tinggal para dewa. Bahan dasar rumah ini umumnya dibuat dari kayu jati. Bagian dari rumah ini ada tiga, yakni pendopo, pringgitan, dan dalem. Setiap bagian dari rumah ini juga memiliki nilai seperti pendopo menandakan karakter orang Jawa yang ramah dan menyambut siapa saja, pringgitan sebagai tempat memuja Dewi Sri, dan pertunjukan wayang serta bagian dalam sebagai tempat tinggal keluarga. "
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -91,6 +96,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="Rumah Kebaya"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -98,6 +104,7 @@
                         android:id="@+id/textView24"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Rumah adat Kebaya adalah rumah tradisional yang berasal dari suku Betawi. Asal muasal disebut Rumah Kebaya karena bentuk atapnya yang terlihat mirip pelana yang dilipat. Jika dilihat dari samping, bentuk tersebut terlihat mirip seperti lipatan kebaya, baju adat khas Betawi. Karakteristik utama dari rumah ini adalah terasnya yang luas dan berguna untuk menjamu tamu atau hanya sekadar tempat bersantai keluarga. Rumah ini juga memiliki dua bagian, yakni ruang tamu dan teras digunakan sebagai tempat umum yang menandakan semua orang dapat masuk. Bagian satunya adalah bagian privat seperti kamar, dapur dan pekarangan belakang yang menandakan bahwa hanya pemilik rumah dan orang terdekat yang boleh menginjakkan kaki ke area ini "
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -113,6 +120,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="Rumah Panjang"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -120,6 +128,7 @@
                         android:id="@+id/textView25"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Bergeser ke Pulau Kalimantan, tepatnya Kalimantan Barat. Rumah ini dinamakan Rumah Panjang atau Rakdang. Rumah ini masih tergolong dalam rumah panggung karena tingginya yang bisa mencapai lima meter dari permukaan tanah. Sesuai dengan namanya, panjang rumah ini juga bisa mencapai lebih dari 100 meter dengan lebar 30 meter. Filosofi rumah ini dapat dilihat dari bentuknya yang panjang, dimana rumah ini ditinggali oleh sekeluarga besar sehingga dapat memupuk rasa toleransi dan kebersamaan. Bagian depan rumah juga dibuat menghadap ke timur, arah terbitnya matahari dan bagian belakang menghadap barat. Hal ini menandakan bahwa orang Dayak adalah pekerja keras yang bekerja dari pagi hingga malam. "
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -135,6 +144,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="Rumah Tongkonan"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -142,6 +152,7 @@
                         android:id="@+id/textView26"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Rumah adat yang satu ini berasal dari Pulau Sulawesi, yakni Tongkonan. Tongkonan sendiri memiliki arti tempat duduk, sesuai dengan fungsi awalnya yang memang sebagai tempat berkumpul para bangsawan Toraja untuk berdiskusi. Rumah Tongkonan terbuat dari kayu uru dan atapnya terbuat dari bambu. Lagi-lagi, bentuk atap rumah adat Indonesia mencuri perhatian. Bentuk atapnya menyerupai perahu sebagai simbol bahwa nenek moyang masyarakat Toraja berlayar menggunakan perahu untuk sampai ke Sulawesi. Pada tiang utama rumah, akan dipasang kepala kerbau beserta tanduk-tanduknya untuk menandakan derajat keluarga. Semakin banyak tanduk, semakin tinggi pula derajatnya. Terdapat tiga bagian dalam rumah Tongkonan ini, yakni Tengalok sebagai ruang tamu atau ruang tidur anak, Sumbung sebagai ruang untuk kepala keluarga dan Sali yang berfngsi untuk ruang makan, dapur dan pertemuan keluarga. "
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -157,6 +168,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="Rumah Honai"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -164,6 +176,7 @@
                         android:id="@+id/textView27"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text='Berkunjung ke bagian timur Indonesia, Anda bisa menemukan Rumah Honai yang berasal dari Papua. Honai berasal dari dua kata yakni "hun" yang berarti pria dewasa dan "ai" yang bermakna rumah. Bentuk dari rumah ini adalah bulat kerucut dengan atap yang terbuat dari jerami. Ukuran rumah ini juga tidak terlalu besar, biasanya hanya 2,5 hingga 5 meter saja. Hal ini ditujukan untuk meredam hawa dingin karena dalam satu rumah bisa ditinggali hingga 10 orang. Uniknya, rumah Honai hanya boleh ditinggali oleh laki-laki karena rumah ini dianggap tempat sakral untuk mengajari para pemuda belajar tentang kehidupan, bagaimana dia bisa bertahan dan bertanggung jawab untuk kelompoknya. Selain digunakan sebagai tempat tinggal, Honai biasanya juga dijadikan sebagai tempat penyimpanan alat perang dan penyusunan strategi perang. Sementara, rumah khusus wanita dinamai Ebai. Bentuknya mirip dengan Honai, tetapi lebih pendek dan kecil. '
                         android:textColor="#FFFFFF" />
                 </LinearLayout>
 
@@ -178,6 +191,7 @@
                         android:id="@+id/textView19"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="인도네시아에는 34 개 주가 있으며 모두 고유 한 문화가 있습니다. 그중 하나는 섬마다 모양이 다른 전통 가옥입니다. 그러나 전통 가옥의 존재는 점차 소외되고, 현대식 콘크리트 벽으로 된 집으로 대체되거나 해외에서 영감을 얻습니다. 이 전통 가옥은 현재 대부분 박물관이나 방문객의 전시 장소입니다. 실제로,이 전통 가옥 각각에는 군도의 문화적 풍요 로움을 더해주는 특징, 철학 및 역사가 있습니다. 그 존재가 유지되지 않으면 문화재도 손실됩니다. 인도네시아에는 점점 더 희귀 한 6 개의 전통 가옥이 있습니다. "
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -193,6 +207,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="가당 하우스"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -200,6 +215,7 @@
                         android:id="@+id/textView28"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text='이 Rumah Gadang은 서 수마트라 출신이며 Minangkabau 부족 출신입니다. 이 전통 가옥의 특징은 한 쌍의 버팔로 뿔과 비슷한 지붕 모양이며 몸은 배 모양입니다. 이전에는이 집에 대가족이 살았 기 때문에 특정 사건이있을 때 집은 의식이나 결혼 장소로 전환되었습니다. Gadang House의 역사는 Javanes와의 버팔로 싸움의 경우 Minang 승리로 인해 지붕 모양의 뿔 모양 버팔로의 기원과 같은 여러 버전이 있습니다. 한편 조상들이 배를 본토로 끌고 갔기 때문에 배와 닮은 집 모양은 해수에 의해 손상되지 않았으며 배는 거주지로 바뀌어 지붕을 받았다. 이야기의 진실과는 별도로,이 전통 가옥의 미학은 최고입니다. 벽에 새겨진 주제는이 집을 더 아름답게 만듭니다. "gadang"이라는 단어는 크게 해석 될 수 있는데, 이것은 집의 크기에서 볼 수 없지만 오히려 중요한 기능과 큰 영향을 미칩니다. '
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -215,6 +231,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="조글로 하우스"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -222,6 +239,7 @@
                         android:id="@+id/textView29"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Java로 옮겨 가면이 전통 가옥을 Joglo라고합니다. 'joglo'라는 용어는 두 단어 즉, 'tajug'와 'loro'에서 가져옵니다. 이는 두 개의 tajug의 결합을 의미합니다. 이 집의 지붕 모양은 뾰족하며 산 모양을 의미한다고합니다. 자바의 산은 신들의 거처로 여겨지기 때문에 신성한 상징입니다. 이 집의 기본 재료는 일반적으로 티크 목재로 만들어집니다. 이 집의 세 부분, 즉 파빌리온, 프링 기탄 및 궁전이 있습니다. 이 집의 각 부분은 또한 친절하고 누구에게나 환영하는 Javanese의 성격을 나타내는 파빌리온, Dewi Sri를 숭배하는 장소로 pringgitan, 인형극뿐만 아니라 가족 거주지로서의 내부와 같은 가치를 가지고 있습니다. "
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -237,6 +255,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="케바야 하우스"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -244,6 +263,7 @@
                         android:id="@+id/textView30"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="케바야 전통 가옥은 베타 위 부족에서 온 전통 가옥입니다. 지붕의 모양이 접힌 안장처럼 보이기 때문에 그 기원을 케바야 하우스라고합니다. 측면에서 볼 때 모양은 전통적인 베타 위 드레스 인 접힌 케 바야처럼 보입니다. 이 집의 주요 특징은 넓은 테라스이며 손님이나 가족을 편안하게 해주는 장소에 유용합니다. 이 집에는 두 부분, 즉 모두가 들어갈 수있는 공공 장소로 사용되는 거실과 테라스가 있습니다. 유일한 부분은 방, 부엌 및 뒷마당과 같은 개인 섹션으로 집의 소유자와 가장 가까운 사람 만이이 지역에 발을 들일 수 있음을 나타냅니다. "
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -259,6 +279,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="롱 하우스"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -266,6 +287,7 @@
                         android:id="@+id/textView31"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="서부 칼리만탄 보르네오 섬으로 이동. 이 집을 Rumah Panjang 또는 Rakdang이라고합니다. 이 집은 지상에서 5 미터에 도달 할 수있는 높이 때문에 여전히 죽마에있는 집으로 분류됩니다. 이름에서 알 수 있듯이이 집의 길이는 폭 30 미터로 100 미터 이상에 도달 할 수 있습니다. 이 집의 철학은 긴 집에서 볼 수 있습니다. 집은 대가족이 거주하므로 관용과 공생 감을 키울 수 있습니다. 집 앞도 동쪽을 향하고 일출 방향과 뒤쪽을 서쪽으로 향하게합니다. 이것은 Dayaks가 아침부터 밤까지 일하는 열심히 일하는 사람들임을 나타냅니다. "
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -281,6 +303,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="통코난 하우스"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -288,6 +311,7 @@
                         android:id="@+id/textView32"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="이 전통 가옥은 통 코난 인 술라웨시 섬에서 왔습니다. 통 코난 그 자체는 토라 자 귀족이 논의 할 수있는 모임 장소로서의 원래 기능에 따라 앉을 곳의 의미를 가지고 있습니다. 통 코난 집은 우루 나무로 만들어졌으며 지붕은 대나무로 만들어졌습니다. 다시, 인도네시아 전통 가옥의 지붕 모양이 주목을 끌고 있습니다. 지붕의 모양은 보트와 유사합니다. Toraja 사람들의 조상은 보트로 항해하여 술라웨시에 도착했습니다. 집의 주요 기둥에 버팔로 헤드가 뿔과 함께 설치되어 가족의 정도를 나타냅니다. 뿔이 많을수록 정도가 높아집니다. 이 통 코난 주택에는 거실이나 어린이 방으로 텐갈 로크, 가족의 머리로 사용되는 방인 섬붕, 식당, 부엌 및 가족 모임을위한 살리 (Sali) 등 세 부분이 있습니다. "
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -303,6 +327,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="호나이 하우스"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -310,6 +335,7 @@
                         android:id="@+id/textView33"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text='인도네시아 동부를 방문하면 파푸아에서 호 나이 하우스를 찾을 수 있습니다. 호 나이는 성인 남성을 의미하는 "hun"과 집을 의미하는 "ai"의 두 단어에서 나옵니다. 이 집의 모양은 짚으로 만든 지붕이있는 둥근 원뿔입니다. 이 집의 크기는 너무 크지 않으며 보통 2.5 ~ 5 미터입니다. 한 집에서 최대 10 명까지 거주 할 수 있기 때문에 감기를 줄이기위한 것입니다. 흥미롭게도, 호 나이의 집은 젊은이들에게만 거주해야합니다.이 집은 젊은이들에게 삶에 대해 배우고, 어떻게 살아남을 수 있는지, 그리고 그룹을 책임질 수있는 신성한 장소로 여겨지기 때문입니다. 호 나이는 살 곳으로 사용되는 것 외에도 일반적으로 전쟁 도구를 보관하고 전쟁 전략을 세우는 장소로도 사용됩니다. '
                         android:textColor="#FFFFFF" />
 
                 </LinearLayout>
