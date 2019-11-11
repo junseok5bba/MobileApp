@@ -42,6 +42,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="Pernikahan Tradisional Korea"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -49,6 +50,7 @@
                         android:id="@+id/textView18"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Pernikahan adalah nama proses Konfusianisme pernikahan, dan merupakan ritual yang diakui secara sosial bahwa dua orang bergabung untuk menjadi pasangan menikah. Upacara pernikahan tradisional lebih dari sekadar ritual ketika perintah memerintah atas negara berdasarkan Konfusianisme lebih dari sekadar ritual."
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -64,6 +66,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="Gaun Pengantin Tradisional"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -71,6 +74,7 @@
                         android:id="@+id/textView23"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Gaun pengantin adalah gaun yang dikenakan oleh pengantin."
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -86,6 +90,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="Makanan Pernikahan Tradisional"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -93,6 +98,7 @@
                         android:id="@+id/textView24"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Pada hari pernikahan sepasang kandil dengan lilin biru dan merah, sepasang vas dengan cabang-cabang pinus dan bambu, dua mangkuk nasi putih, dan seekor ayam jantan dan betina yang dibungkus krep biru / merah. Biru adalah sisi pengantin wanita dan merah adalah sisi pengantin pria. Karena pinus dan bambu menjaga sayatan yang kuat seperti nanas, chestnut dan jujube berarti umur panjang dan multi-nama. Dalam beberapa kasus, kacang, kacang merah, dan botol minuman keras disiapkan, dan buah-buahan musiman lokal ditempatkan. "
                         android:textColor="#FFFFFF" />
 
                 </LinearLayout>
@@ -117,6 +123,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="한국의 전통 결혼식"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -124,6 +131,7 @@
                         android:id="@+id/textView28"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="혼례는 결혼식의 유교적 절차를 이르는 이름이며, 두 사람이 결합하여 부부가 되었음을 사회적으로 인정하는 의례로, 인간이 태어나서 일생을 통해 거쳐야만 하는 통과의례 중의 하나입니다. 전통적인 혼례는 유교를 바탕으로 나라를 다스리는 질서가 완강했던 조선시대의 관혼상제는 단순한 의례 이상의 의미를 가졌으며, 생활양식 속에 깊이 뿌리내려 오늘날에도 중요시되고 있습니다."
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -139,6 +147,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="전통 혼례복"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -146,6 +155,7 @@
                         android:id="@+id/textView29"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="혼례복은 결혼식 하는 신랑과 신부가 착용하는 예복이다."
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -161,6 +171,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="전통혼례 음식"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -168,6 +179,7 @@
                         android:id="@+id/textView30"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="초례상 - 청색, 홍색 양초를 꽂은 촛대 한 쌍, 소나무 가지와 대나무 가지를 꽂은 꽃병 한 쌍, 백미 두 그릇, 청색/홍색 보자기에 싼 닭 한 자웅을 남북으로 갈라 놓는다. 청색은 신부쪽, 홍색은 신랑쪽의 색이다. 소나무와 대나무는 송죽같은 굳은 절개를 지킨다는 뜻에서, 밤과 대추는 장수와 다남(多男)을 의미하므로 반드시 올린다. 경우에 따라 콩과 팥,술병 등을 올리기도 하고 지방의 특산인 계절과일을 놓기도 한다. "
                         android:textColor="#FFFFFF" />
 
                 </LinearLayout>
