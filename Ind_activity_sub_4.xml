@@ -32,6 +32,7 @@
                         android:id="@+id/textView16"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Hamparan lebih dari 17000 pulau di Indonesia tentunya menjadi surga bagi para pecinta travelling. Bukan hanya di telinga wisatawan lokal, kekayaan tempat wisata Indonesia juga menjadi perbincangan di antara wisatawan dunia dan menjadi destinasi wajib mereka. Ingin tahu mana sajakah daerah yang masuk ke dalam daftar tempat wisata Indonesia yang menjadi favorit wisatawan asing?"
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -48,6 +49,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="Candi Borobudur"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -55,6 +57,7 @@
                         android:id="@+id/textView18"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Borobudur adalah sebuah candi Buddha yang terletak di Borobudur, Magelang, Jawa Tengah, Indonesia. Candi ini terletak kurang lebih 100 km di sebelah barat daya Semarang, 86 km di sebelah barat Surakarta, dan 40 km di sebelah barat laut Yogyakarta. Candi berbentuk stupa ini didirikan oleh para penganut agama Buddha Mahayana sekitar tahun 800-an Masehi pada masa pemerintahan wangsa Syailendra. Borobudur adalah candi atau kuil Buddha terbesar di dunia, sekaligus salah satu monumen Buddha terbesar di dunia. Menurut bukti-bukti sejarah, Borobudur ditinggalkan pada abad ke-14 seiring melemahnya pengaruh kerajaan Hindu dan Buddha di Jawa serta mulai masuknya pengaruh Islam. Dunia mulai menyadari keberadaan bangunan ini sejak ditemukan 1814 oleh Sir Thomas Stamford Raffles, yang saat itu menjabat sebagai Gubernur Jenderal Inggris atas Jawa. Sejak saat itu Borobudur telah mengalami serangkaian upaya penyelamatan dan pemugaran (perbaikan kembali). Proyek pemugaran terbesar digelar pada kurun waktu 1975 hingga 1982 atas upaya Pemerintah Republik Indonesia dan UNESCO, kemudian situs bersejarah ini masuk dalam daftar Situs Warisan Dunia. Terletak sekitar 40 kilometer (25 mi) barat laut dari Kota Yogyakarta, Borobudur terletak di atas bukit pada dataran yang dikeliling dua pasang gunung kembar; Gunung Sindoro-Sumbing di sebelah barat laut dan Merbabu-Merapi di sebelah timur laut, di sebelah utaranya terdapat bukit Tidar, lebih dekat di sebelah selatan terdapat jajaran perbukitan Menoreh, serta candi ini terletak dekat pertemuan dua sungai yaitu Sungai Progo dan Sungai Elo di sebelah timur. Menurut legenda Jawa, daerah yang dikenal sebagai dataran Kedu adalah tempat yang dianggap suci dalam kepercayaan Jawa dan disanjung sebagai 'Taman pulau Jawa' karena keindahan alam dan kesuburan tanahnya."
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -71,6 +74,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="Tanah Lot"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -78,6 +82,7 @@
                         android:id="@+id/textView23"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Pulau Bali juga terkenal dengan dengan nama pulau dewata karena keindahan alamnya yang dipadu dengan keunikan budaya Hindunya. Banyak bangunan Pura yang menjadi daya tarik tersendiri bagi para wisatawan, baik domestik maupun mancanegara. Salah satunya pura yang didirikan untuk memuja dewa laut bernama Pura Pekendungan. Lebih dikenal dengan nama Pura Tanah Lot. Sebuah objek wisata yang memaduan antara batu karang, pura, dan pantai.Terletak di Desa Beraban, Kecamatan Kediri, Kabupaten Tabanan, Provinsi Bali. Sekitar 13 kilometer dari pusat Kabupaten Tabanan. Tanah lot dalam bahasa bali memiliki arti daratan di tengah lautan. Pura Tanah Lot saat laut pasang, pagi hingga sore hari akan tampak terendam dan seolah-olah terpisah dari daratan Bali. Namun saat air surut akan terlihat gua kecil di seberang pura. Konon menurut cerita gua tersebut sebagai tempat bersemayamnya ular laut yang dipercaya sebagai penjaga Pura Tanah Lot. Jika traveler ingin menyentuh atau sekedar ingin  akan dipandu oleh seorang pawang."
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -94,6 +99,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="Taman Nasional Komodo"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -101,6 +107,7 @@
                         android:id="@+id/textView24"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Pulau Komodo terletak di daerah administrasi Provinsi Nusa Tenggara Timur dan taman nasional ini juga sangat dekat dengan kepulauan Sumbawa provinsi Nusa Tenggara Barat. Taman nasional ini terdiri atas tiga pulau besar Pulau Komodo, Pulau Rinca, dan Pulau Padar serta beberapa pulau kecil. Wilayah darat taman nasional ini 603 km² dan wilayah total adalah 1817 km². Pada tahun 1980 taman nasional ini didirikan untuk melindungi komodo dan habitatnya. Di sana terdapat 277 spesies hewan yang merupakan perpaduan hewan yang berasal dari Asia dan Australia, yang terdiri dari 32 spesies mamalia, 128 spesies burung, dan 37 spesies reptilia. Bersama dengan komodo, setidaknya 25 spesies hewan darat dan burung termasuk hewan yang dilindungi, karena jumlahnya yang terbatas atau terbatasnya penyebaran mereka. Selain itu, di kawasan ini terdapat pula terumbu karang. Setidaknya terdapat 253 spesies karang pembentuk terumbu yang ditemukan di sana, dengan sekitar 1.000 spesies ikan. Keindahan terumbu ini menarik minat wisatawan asing untuk berenang atau menyelam di perairan ini. Pulau-pulau ini aslinya adalah pulau vulkanis. Jumlah penduduk di wilayah ini kurang lebih adalah 4.000 jiwa. Pada tahun 1991 taman nasional ini diterima sebagai Situs Warisan Dunia UNESCO. Pada tanggal 11 November 2011, New 7 Wonders telah mengumumkan pemenang sementara, dan Taman Nasional Komodo masuk kedalam jajaran pemenang tersebut bersama dengan, Hutan Amazon, Teluk Halong, Air Terjun Iguazu, Pulau Jeju, Sungai Bawah Tanah Puerto Princesa, dan Table Mountain. Taman Nasional Komodo mendapatkan suara terbanyak"
                         android:textColor="#FFFFFF" />
 
                 </LinearLayout>
@@ -116,6 +123,7 @@
                         android:id="@+id/textView19"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="인도네시아에 17,000 개가 넘는 섬이 펼쳐져있어 여행 애호가에게는 천국이 될 것입니다. 현지 관광객의 귀에는 물론, 인도네시아의 풍부한 관광 명소도 세계 관광객들 사이의 대화이며 필수 목적지가되었습니다. 외국 관광객이 좋아하는 인도네시아 관광 명소 목록에 어떤 지역이 포함되어 있는지 알고 싶습니까?"
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -132,6 +140,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="보로부두르 사원"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -139,6 +148,7 @@
                         android:id="@+id/textView28"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="보로부두르는 인도네시아 중부 자바 마 갈랑 보로부두르에 위치한 불교 사원입니다. 이 사원은 세마 랑 남서쪽으로 약 100km, 수라 카르타 서쪽으로 86km, 족 자카르타 북서쪽으로 40km에 위치하고 있습니다. 이 stupa 모양의 사원은 Syailendra 왕조의 통치 기간 동안 800 년경 Mahayana 불교에 의해 세워졌습니다. 보로부두르는 세계에서 가장 큰 불교 사원 또는 사원이며 세계에서 가장 큰 불교 기념물 중 하나입니다. 역사적 증거에 따르면 보로부두르는 힌두교와 불교도의 자바에 대한 영향이 약해지면서 이슬람의 영향이 시작되면서 14 세기에 포기되었다. 1814 년 토마스 스탬 포드 래플스 경 (Thomas Stamford Raffles)이이 건물을 발견 한 이후 세계는이 건물의 존재를 깨닫기 시작했습니다. 그 이후 보로부두르는 일련의 구조 및 복원 노력 (수리)을 경험했습니다. 1975 년부터 1982 년까지 인도네시아 공화국과 유네스코 정부의 노력으로 가장 큰 복원 프로젝트가 진행되었으며이 유적지는 세계 문화 유산 목록에 포함되었습니다. 요 그야 카르타시에서 북서쪽으로 약 40 킬로미터 떨어진 곳에 위치한 보로부두르는 2 쌍의 쌍둥이 산으로 둘러싸인 평야 언덕에 위치하고 있습니다. 북서쪽 신도 로섬과 북동쪽 Merbabu-Merapi, 북쪽에는 Tidar 언덕이 있고 남쪽에 더 가면 Menoreh 언덕이 있으며이 사원은 두 강의 합류점 인 Progo River와 Ello River가 북쪽에 있습니다. 동쪽. Javanese 전설에 따르면, Kedu 평야로 알려진 지역은 Javanese 신념에서 신성한 것으로 간주되는 장소이며 자연의 아름다움과 토양 비옥도로 인해 'Java 섬의 정원'으로 호평을 받고 있습니다."
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -155,6 +165,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="타나 로트"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -162,6 +173,7 @@
                         android:id="@+id/textView29"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="발리 섬은 또한 힌두 문화의 독창성과 자연의 아름다움으로 인해 신 섬의 이름으로 유명합니다. 많은 사원 건물이 국내외 관광객의 주요 명소입니다. 사원 중 하나는 Pekendungan Temple이라는 바다 신을 숭배하기 위해 설립되었습니다. 타나 롯 사원으로 더 잘 알려져 있습니다. 산호초, 사원 및 해변이 결합 된 관광 명소로 발리 지방의 Tabanan Regency Kediri District 베라 반 마을에 위치하고 있습니다. Tabanan Regency 시내에서 약 13km. 발리의 타나 롯은 바다 한가운데 땅의 의미를 가지고 있습니다. 만조에서 아침부터 저녁까지 타나 롯 사원은 침수되어 마치 발리 본토에서 분리 된 것처럼 보입니다. 그러나 간조시 성전 맞은 편에 작은 동굴이 보입니다. 동굴의 이야기에 따르면 바다 뱀을 살기위한 장소는 타나 롯 사원의 수호자라고 여겨집니다. 여행자가 만지기를 원하거나 처리자가 안내를 원하는 경우."
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -178,6 +190,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="코모도 국립 공원"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -185,6 +198,7 @@
                         android:id="@+id/textView30"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="코모도 섬은 누사 텡 가라주의 행정 구역에 위치하고 있으며이 국립 공원은 또한 서 누사 텡 가라주의 숨 바와 섬과 매우 가깝습니다. 이 국립 공원은 코모도 섬, 린카 섬, 파 다르 섬의 3 개의 큰 섬과 몇 개의 작은 섬으로 구성되어 있습니다. 이 국립 공원의 토지 면적은 603 km²이며 총 면적은 1817 km²입니다. 1980 년에 국립 공원은 코모도 드래곤과 그 서식지를 보호하기 위해 설립되었습니다. 32 종의 포유류, 128 종의 조류, 37 종의 파충류로 구성된 아시아와 호주에서 유래 한 동물의 조합 인 277 종의 동물이 있습니다. 용과 함께, 제한된 수 또는 제한된 분포로 인해 보호 된 동물을 포함하여 최소 25 종의 육상 동물과 조류가 보호됩니다. 또한이 지역에는 산호초도 있습니다. 이곳에는 최소 253 종의 산호초 형성 산호가 있으며 약 1,000 종의 물고기가 있습니다. 이 암초의 아름다움은 외국 관광객들이이 물에서 수영을하거나 다이빙을하도록 유혹합니다. 이 섬들은 원래 화산섬이었습니다. 이 지역의 인구는 약 4,000 명입니다. 1991 년에이 국립 공원은 유네스코 세계 문화 유산으로 지정되었습니다. 2011 년 11 월 11 일, New 7 Wonders는 임시 우승자를 발표했으며, Komodo National Park는 Amazon Forest, Halong Bay, Iguazu Falls, Jeju Island, Puerto Princesa Underground River 및 Table Mountain과 함께 우승자 순위에 올랐습니다. 코모도 국립 공원이 가장 많은 표를 얻었습니다"
                         android:textColor="#FFFFFF" />
 
                 </LinearLayout>
