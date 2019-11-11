@@ -1,0 +1,87 @@
+package com.hanin_project;
+
+import android.net.Uri;
+import android.os.Bundle;
+import androidx.appcompat.app.AppCompatActivity;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.LinearLayout;
+import android.widget.MediaController;
+import android.widget.VideoView;
+
+public class KorActivity_6 extends AppCompatActivity {
+    private View indLayout, korLayout;
+    private VideoView videoView5,videoView6,videoView7, videoView8;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate ( savedInstanceState );
+        setContentView ( R.layout.kor_activity_sub_6);
+        this.InitializeView();
+        videoView();
+    }
+    private void videoView(){
+        videoView5 = (VideoView)findViewById(R.id.videoView5);
+        MediaController mc1 = new MediaController(this);
+
+        mc1.setAnchorView(videoView5);
+        mc1.setAnchorView(videoView6);
+        Uri video1 = Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.jungsun);
+        videoView5.setMediaController(mc1);
+
+        videoView5.setVideoURI(video1);
+        videoView5.requestFocus();
+
+        videoView6 = (VideoView)findViewById(R.id.videoView6);
+        videoView6.setMediaController(mc1);
+
+        videoView6.setVideoURI(video1);
+        videoView6.requestFocus();
+
+        videoView7 = (VideoView)findViewById(R.id.videoView7);
+        MediaController mc2 = new MediaController(this);
+        mc2.setAnchorView(videoView7);
+        mc2.setAnchorView(videoView8);
+        Uri video2 = Uri.parse("android.resource://"+getPackageName()+ "/"+R.raw.nodle);
+        videoView7.setMediaController(mc2);
+        videoView7.setVideoURI(video2);
+        videoView7.requestFocus();
+
+        videoView8 = (VideoView)findViewById(R.id.videoView8);
+        videoView8.setMediaController(mc2);
+        videoView8.setVideoURI(video2);
+        videoView8.requestFocus();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+
+        inflater.inflate(R.menu.lan_menu, menu);
+
+        return true;
+    }
+
+    public void InitializeView()
+    {
+        indLayout = (LinearLayout)findViewById(R.id.indLayout);
+        korLayout = (LinearLayout)findViewById(R.id.korLayout);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch(item.getItemId())
+        {
+            case R.id.kor_indonesian:
+                indLayout.setVisibility(View.VISIBLE);
+                korLayout.setVisibility(View.INVISIBLE);
+                break;
+            case R.id.kor_korean:
+                indLayout.setVisibility(View.INVISIBLE);
+                korLayout.setVisibility(View.VISIBLE);
+                break;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+}
