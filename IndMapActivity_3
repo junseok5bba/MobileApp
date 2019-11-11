@@ -1,0 +1,38 @@
+package com.hanin_project;
+
+import androidx.fragment.app.FragmentActivity;
+
+import android.os.Bundle;
+
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
+
+public class IndMapActivity_3 extends FragmentActivity implements OnMapReadyCallback {
+    GoogleMap mMap;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.ind_map_3);
+
+        SupportMapFragment mapFragment = (SupportMapFragment)getSupportFragmentManager().findFragmentById(R.id.ind_map3);
+        mapFragment.getMapAsync(this);
+    }
+
+    public void onMapReady(GoogleMap googleMap){
+        mMap = googleMap;
+
+        LatLng ind = new LatLng(-8.543333,119.489441);
+
+        MarkerOptions makerOptions = new MarkerOptions();
+        makerOptions.position(ind)
+                .title("Taman Nasional Komodo / 코모도 국립 공원");
+
+        mMap.addMarker(makerOptions);
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(ind));
+    }
+}
+
