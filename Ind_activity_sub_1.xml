@@ -39,15 +39,17 @@
                         android:id="@+id/textView5"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Tradisi Pernikahan Adat Minangkabau, Melamar Mempelai Pria"
+                        android:textSize="20dp"
                         android:gravity="center_horizontal"
-                        android:textColor="#FFFFFF"
-                        android:textSize="20dp" />
+                        android:textColor="#FFFFFF" />
 
                     <TextView
                         android:id="@+id/textView18"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColor="#FFFFFF" />
+                        android:text="Tidak seperti adat lainnya. Dalam tradisi pernikahan adat Minang, keluarga mempelai wanita akan datang ke pihak mempelai pria untuk meminang. Setelah lamaran diterima, prosesi ini dilanjutkan dengan bertukar tanda sebagai simbol pengikat. Keluarga mempelai wanita datang dengan membawa kue-kue dan buah buahan serta sirih pinang, lengkap disusun dalam kampia (Tas yang terbuat dari daun pandan) yang disuguhkan untuk dicicipi keluarga pihak pria. Lalu dilanjutkan dengan saling menukar benda-benda pusaka seperti keris, dan kain adat. Selain itu apabila menikah dengan tradisi adat Minang, harus melalui beberapa tahap. Yakni maresek (Pertemuan), maminang dan batimbang tando (Meminang dan bertukar tanda), mahanta siriah (Minta izin), babako-babaki (Membawa berbagai antaran), malam bainai (Memberi inai pada kuku mempelai wanita), manjapuik marapulai (Menjemput mempelai pria untuk akad nikah), penyambutan di rumah anak Daro, dan ada pula tradisi setelah akad nikah. "
+                        android:textColor="#FFFFFF"/>
 
                     <ImageView
                         android:id="@+id/ind2"
@@ -62,6 +64,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="Merundingkan Mas Kawin atau Mahar Dalam Tradisi Pernikahan Adat Batak"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -69,7 +72,8 @@
                         android:id="@+id/textView23"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColor="#FFFFFF" />
+                        android:text="Dalam pernikahan adat Batak, ada sebuah tradisi yang cukup menarik. Jika ingin menikahi seorang wanita dari suku Batak, maka pria tersebut harus membeli wanita tersebut dari orangtuanya. Proses pembelian wanita ini disebut dengan Sinamot. Sinamot adalah harga (Mahar) yang ditentukan orangtua dari pihak mempelai wanita agar pihak mempelai pria bisa memiliki dan mempunyai hak atas anak perempuannya. Tolak ukur harga beli yaitu terdapat pada pendidikan sang gadis. Jika gadis tersebut mempunyai gelar sarjana, ia dihargai tinggi dan apabila gadis itu hanya tamatan SMA maka harga beli gadis tersebut tidak terlalu tinggi. Harga sinamot tidak selalu ditentukan dari pendidikan. Biasanya pendidikan dijadikan tolak ukur agar calon suaminya berpendidikan lebih tinggi daripada mempelai perempuan. Agar kelak di saat berkeluarga, mempelai pria memang sudah mampu untuk menafkahi keluarganya. Terkadang sinamot menjadi permasalahan yang mengakibatkan pernikahan yang sudah direncanakan menjadi gagal. Pihak perempuan memberi harga sinamot yang tinggi kepada anaknya. Sedangkan bila pihak laki-laki tidak mempunyai uang yang banyak untuk mampu membeli wanita tersebut, maka tidak terjadi kesepakatan dan membuat kekecewaan terhadap sepasang kekasih yang ingin melanjutkan cintanya ke pernikahan. "
+                        android:textColor="#FFFFFF"/>
 
                     <ImageView
                         android:id="@+id/ind3"
@@ -83,15 +87,17 @@
                         android:id="@+id/textView11"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Budaya Pingitan, Tradisi Unik Pernikahan Adat Jawa"
+                        android:textSize="20dp"
                         android:gravity="center_horizontal"
-                        android:textColor="#FFFFFF"
-                        android:textSize="20dp" />
+                        android:textColor="#FFFFFF"/>
 
                     <TextView
                         android:id="@+id/textView24"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColor="#FFFFFF" />
+                        android:text="Pada saat menjelang pernikahan, calon pengantin wanita dipingit selama tiga sampai lima hari. Pada masa itu calon pengantin wanita dilarang keluar rumah dan tidak boleh bertemu dengan calon pengantin pria. Calon pengantin wanita melakukan perawatan tubuh di rumah seperti luluran, berpuasa, dan minum jamu-jamuan. Tujuannya agar pengantin pria merasa lebih kangen dan calon pengantin wanita tampil lebih cantik dan langsing di hari pernikahan. Mungkin efektif juga ya supaya membuat hari pernikahan terasa lebih seru dan menyenangkan. Asal jangan lama-lama dipingitnya. "
+                        android:textColor="#FFFFFF"/>
 
                     <ImageView
                         android:id="@+id/imageView6"
@@ -105,15 +111,17 @@
                         android:id="@+id/textView12"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Menyanyikan Sebuah Puisi Lalu Disawer, Uniknya Tradisi Pernikahan Adat Sunda"
+                        android:textSize="20dp"
                         android:gravity="center_horizontal"
-                        android:textColor="#FFFFFF"
-                        android:textSize="20dp" />
+                        android:textColor="#FFFFFF"/>
 
                     <TextView
                         android:id="@+id/textView25"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColor="#FFFFFF" />
+                        android:text="Sawer dalam Bahasa Sunda berarti tempat jatuhnya air dari ujung genting bagian bawah. Upacara ini dimulai dengan menyanyikan sebuah puisi yang memiliki nilai rohani guna mendidik kedua mempelai. Lantas, kedua pengantin akan menerima bokor yang terdiri dari beras, uang receh, kembang gula atau permen, serta kunyit. Di mana beras melambangkan kemakmuran serta doa yang dialamatkan pada mempelai agar mendapatkan hidup makmur. Uang receh adalah lambang harapan yang bisa dicapai oleh pengantin dengan berbagi bersama fakir miskin. Sementara kembang gula melambangkan arti kehidupan yang manis serta kunyit yang merupakan lambang kejayaan. Sawer memiliki makna penyampaian nasihat kedua orangtua mempelai. Upacara ini juga melambangkan cinta dan kasih sayang kedua orangtua yang tidak ada habisnya. "
+                        android:textColor="#FFFFFF"/>
 
                     <ImageView
                         android:id="@+id/imageView7"
@@ -127,15 +135,17 @@
                         android:id="@+id/textView13"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Mahar Harus Berupa Emas, Benarkah Suku Bugis Merupakan Tradisi Pernikahan Termahal?"
+                        android:textSize="20dp"
                         android:gravity="center_horizontal"
-                        android:textColor="#FFFFFF"
-                        android:textSize="20dp" />
+                        android:textColor="#FFFFFF"/>
 
                     <TextView
                         android:id="@+id/textView26"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColor="#FFFFFF" />
+                        android:text="Suku Bugis sudah dikenal sebagai pernikahan suku yang mahal karena nilai mahar yang harus diberikan yaitu emas. Tapi tidak hanya maharnya yang mahal. Proses adat yang dimiliki oleh suku Bugis pun cukup panjang dan meriah karena melibatkan seluruh orang dari keluarga kedua belah pihak hampir disetiap prosesnya."
+                        android:textColor="#FFFFFF"/>
 
                     <ImageView
                         android:id="@+id/imageView8"
@@ -149,15 +159,17 @@
                         android:id="@+id/textView14"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Tradisi Jual Beli Dalam Pernikahan Adat Bali"
+                        android:textSize="20dp"
                         android:gravity="center_horizontal"
-                        android:textColor="#FFFFFF"
-                        android:textSize="20dp" />
+                        android:textColor="#FFFFFF"/>
 
                     <TextView
                         android:id="@+id/textView27"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColor="#FFFFFF" />
+                        android:text="Tradisi jual beli yang dilakukan dalam tradisi pernikahan adat Bali merupakan salah satu tahap di dalam perayaan pernikahannya. Di mana bakul yang dibawa oleh calon mempelai wanita tersebut kemudian akan dibeli oleh calon mempelai pria. Kegiatan tersebut merupakan analogi dari kehidupan berumah tangga yang harus saling melengkapi, memberi dan mengisi, hingga meraih tujuan yang diinginkan."
+                        android:textColor="#FFFFFF"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -179,15 +191,17 @@
                         android:id="@+id/textView7"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="신랑에게 적용되는 전통 미낭카바우의 결혼 전통"
+                        android:textSize="20dp"
                         android:gravity="center_horizontal"
-                        android:textColor="#FFFFFF"
-                        android:textSize="20dp" />
+                        android:textColor="#FFFFFF" />
 
                     <TextView
                         android:id="@+id/textView28"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColor="#FFFFFF" />
+                        android:text="다른 관습과 달리. 미낭 전통 결혼식 전통에서 신부의 가족은 신랑에게 와서 제안합니다. 응용 프로그램이 수신 된 후, 바인딩 기호로 부호를 교환하여 행렬이 계속됩니다. 신부의 가족은 케이크와 과일과 빈랑 나무 열매와 함께 제공되며, 남성 가족의 시식을 위해 제공되는 캄 피아 (판다 누스 잎으로 만든 가방)로 완성됩니다. 그런 다음 크리스와 전통 천과 같은 가보 교환을 진행하십시오. 또한 Minang 전통 전통과 결혼 한 경우 여러 단계를 거쳐야합니다. 즉, maresek (미팅), maminang 및 batimbang tando (승리 및 교환 마크), mahanta siriah (허가 요청), babako-babaki (다양한 결과물 가져 오기), bainai night (신부에게 신부에게 신부주기), manjapuik marapulai (부정의 신부) Daro의 자녀 집에 오신 것을 환영하며 결혼 계약 후에도 전통이 있습니다. "
+                        android:textColor="#FFFFFF"/>
 
                     <ImageView
                         android:id="@+id/ind5"
@@ -201,15 +215,17 @@
                         android:id="@+id/textView10"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="바탁 원주민 결혼의 전통에서 지참금 또는 지참금 협상"
+                        android:textSize="20dp"
                         android:gravity="center_horizontal"
-                        android:textColor="#FFFFFF"
-                        android:textSize="20dp" />
+                        android:textColor="#FFFFFF"/>
 
                     <TextView
                         android:id="@+id/textView29"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColor="#FFFFFF" />
+                        android:text="바탁 전통 결혼에는 꽤 흥미로운 전통이 있습니다. 바 탁족에서 여자와 결혼하고 싶다면 남자는 부모에게서 여자를 사야한다. 이 여성을 구매하는 과정을 Sinamot라고합니다. Sinamot는 신랑이 그의 딸에게 권리를 가질 수 있도록 신부의 부모에 의해 결정된 가격 (mahar)입니다. 구매 가격의 벤치 마크는 소녀의 교육에 있습니다. 소녀가 학사 학위를 가지고 있다면, 그녀는 높은 평가를 받고 소녀가 고등학교 졸업자 인 경우 소녀의 구매 가격이 너무 높지 않습니다. 시나 모트의 가격이 항상 교육에 의해 결정되는 것은 아닙니다. 일반적으로 교육은 벤치 마크로 사용되므로 미래의 남편은 신부보다 더 교육을받습니다. 그래서 나중에 가족이 될 때, 신랑은 실제로 가족을 부양 할 수 있습니다. 때때로시나 모트는 문제가되어 계획된 결혼 생활이 실패하게됩니다. 여자들은 아이들에게시나 모트에 높은 가격을줍니다. 한편 남자가 여자를 살 돈이 많지 않으면 결혼에 대한 사랑을 계속하고 싶어하는 한 쌍의 연인들과 합의가없고 실망하게됩니다. "
+                        android:textColor="#FFFFFF"/>
 
                     <ImageView
                         android:id="@+id/ind6"
@@ -223,15 +239,17 @@
                         android:id="@+id/textView6"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Pingitan 문화, Javanese 원주민 결혼의 독특한 전통"
+                        android:textSize="20dp"
                         android:gravity="center_horizontal"
-                        android:textColor="#FFFFFF"
-                        android:textSize="20dp" />
+                        android:textColor="#FFFFFF"/>
 
                     <TextView
                         android:id="@+id/textView30"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColor="#FFFFFF" />
+                        android:text="결혼식 전날, 신부와 신부는 3-5 일 동안 열립니다. 그 당시 신부와 신랑은 집을 떠나는 것이 금지되어 있었고 신랑과 만나지 않을 수도있었습니다. 신부와 신랑은 집에서 문지르 기, 금식, 약초 요법과 같은 바디 트리트먼트를합니다. 목표는 신랑이 결혼식을 더욱 아름답고 날씬하게 보이게하는 것입니다. 어쩌면 그것은 결혼식 날을 더 흥미롭고 즐겁게 만들 수 있도록 효과적 일 수 있습니다. 당신이 외로워지는 한. "
+                        android:textColor="#FFFFFF"/>
 
                     <ImageView
                         android:id="@+id/imageView10"
@@ -245,15 +263,17 @@
                         android:id="@+id/textView8"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="시를 부르고 그 다음 Disawer, 순 다어 원주민 결혼의 독특한 전통"
+                        android:textSize="20dp"
                         android:gravity="center_horizontal"
-                        android:textColor="#FFFFFF"
-                        android:textSize="20dp" />
+                        android:textColor="#FFFFFF"/>
 
                     <TextView
                         android:id="@+id/textView31"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColor="#FFFFFF" />
+                        android:text="순다어의 소우어는 물이 지붕의 하단에서 떨어지는 곳을 의미합니다. 의식은 신부와 신랑을 교육시키는 영적인 가치가있는시를 노래하는 것으로 시작됩니다. 그러면 신부와 신랑은 쌀, 동전, 사탕 또는 사탕과 심황으로 구성된 그릇을 받게됩니다. 쌀이 번영을 상징하는 곳에서 번영을 얻기 위해 신부와 신랑에게 전달 된다. 한푼은 신부가 가난한 사람들과 나눔으로써 성취 할 수있는 희망의 상징입니다. 제과는 영광의 상징 인 달콤하고 심황 생활의 의미를 상징하지만. 소는 신부의 부모로부터 조언을 전달하는 것을 의미합니다. 이 의식은 또한 부모의 끝없는 사랑과 애정을 상징합니다. 중국의 전통적인 결혼 전통에서 좋은 날, 시간 및 날짜를 보는 것은 필수입니다 일반적으로 배달되는 품목은 부부의 영속성, 다산 및 행복을 상징합니다. 이 관례에서 제안 항목에 대한 독특한 점은 신부와 신랑의 행복을 지속시키고 발전시키는 열쇠 인 명목상의 9 (지우) 또는 8 (지방)입니다. "
+                        android:textColor="#FFFFFF"/>
 
                     <ImageView
                         android:id="@+id/imageView11"
@@ -267,15 +287,17 @@
                         android:id="@+id/textView15"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Mahar는 금이어야합니다, Bugis 부족은 가장 비싼 결혼식 전통입니까?"
+                        android:textSize="20dp"
                         android:gravity="center_horizontal"
-                        android:textColor="#FFFFFF"
-                        android:textSize="20dp" />
+                        android:textColor="#FFFFFF"/>
 
                     <TextView
                         android:id="@+id/textView32"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColor="#FFFFFF" />
+                        android:text="부기스는 이미 지참해야 할 지참금, 즉 금으로 인해 값 비싼 부족 결혼으로 알려져 있습니다. 그러나 비싼 지참금뿐만 아니라. 부기스 부족이 소유 한 adat 과정은 거의 모든 과정에서 양 당사자 가족의 모든 사람들이 참여하기 때문에 매우 길고 활발합니다."
+                        android:textColor="#FFFFFF"/>
 
                     <ImageView
                         android:id="@+id/imageView12"
@@ -289,15 +311,17 @@
                         android:id="@+id/textView17"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="발리 원주민 결혼의 매매 전통"
+                        android:textSize="20dp"
                         android:gravity="center_horizontal"
-                        android:textColor="#FFFFFF"
-                        android:textSize="20dp" />
+                        android:textColor="#FFFFFF"/>
 
                     <TextView
                         android:id="@+id/textView33"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColor="#FFFFFF" />
+                        android:text="전통적인 발리 결혼식 전통에서 행해지는 매매 전통은 그의 결혼식을 축하하는 단계 중 하나입니다. 신부가 운반하는 바구니는 신부가 구입하는 곳입니다. 이 활동은 원하는 목표를 달성하기 위해 보완하고,주고, 채워야하는 결혼 생활과 유사합니다."
+                        android:textColor="#FFFFFF"/>
 
                 </LinearLayout>
             </FrameLayout>
