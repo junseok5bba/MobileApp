@@ -39,6 +39,7 @@
                         android:id="@+id/textView16"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Kostum nasional Indonesia adalah kostum nasional yang mewakili Republik Indonesia. Kostum tersebut berasal dari budaya Indonesia dan tradisi tekstil tradisional Indonesia. Saat ini, sebagian besar kostum nasional Indonesia yang paling terkenal adalah Batik dan Kebaya, meskipun aslinya kostum tersebut utamanya masuk pada budaya Jawa dan Bali, yang sebagian besar berpengaruh pada budaya Jawa, Sunda dan Bali. Sejak Jawa menjadi pusat politik dan populasi Indonesia, kostum foklor dari pulau tersebut naik menjadi status nasional."
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -54,6 +55,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="Batik"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -61,6 +63,7 @@
                         android:id="@+id/textView18"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text='Batik adalah kain bergambar yang pembuatannya secara khusus dengan menuliskan atau menerakan malam pada kain itu, kemudian pengolahannya diproses dengan cara tertentu yang memiliki kekhasan. Batik Indonesia, sebagai keseluruhan teknik, teknologi, serta pengembangan motif dan budaya yang terkait, oleh UNESCO telah ditetapkan sebagai Warisan Kemanusiaan untuk Budaya Lisan dan Nonbendawi (Masterpieces of the Oral and Intangible Heritage of Humanity) sejak 2 Oktober 2009.  Batik adalah kerajinan yang memiliki nilai seni tinggi dan telah menjadi bagian dari budaya Indonesia (khususnya Jawa) sejak lama. Perempuan-perempuan Jawa pada masa lampau menjadikan keterampilan mereka dalam membatik sebagai mata pencaharian, sehingga pada masa lalu pekerjaan membatik adalah pekerjaan eksklusif perempuan sampai ditemukannya "Batik Cap" yang memungkinkan masuknya laki-laki ke dalam bidang ini. Ada beberapa pengecualian bagi fenomena ini, yaitu batik pesisir yang memiliki garis maskulin seperti yang bisa dilihat pada corak "Mega Mendung", di mana di beberapa daerah pesisir pekerjaan membatik adalah lazim bagi kaum lelaki. Tradisi membatik pada mulanya merupakan tradisi yang turun temurun, sehingga kadang kala suatu motif dapat dikenali berasal dari batik keluarga tertentu. Beberapa motif batik dapat menunjukkan status seseorang. Bahkan sampai saat ini, beberapa motif batik tadisional hanya dipakai oleh keluarga keraton Yogyakarta dan Surakarta. Batik merupakan warisan nenek moyang Indonesia ( Jawa ) yang sampai saat ini masih ada. Batik juga pertama kali diperkenalkan kepada dunia oleh Presiden Soeharto, yang pada waktu itu memakai batik pada Konferensi PBB. '
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -76,6 +79,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="Kebaya"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -83,6 +87,7 @@
                         android:id="@+id/textView23"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Kebaya adalah blus tradisional yang dikenakan oleh wanita Indonesia yang terbuat dari bahan tipis yang dikenakan dengan sarung, batik, atau pakaian rajutan tradisional lainnya seperti songket dengan motif warna-warni. Asal kata kebaya berasal dari kata arab abaya yang berarti pakaian, namun versi lain menyebut berasal dari kata &quot;Kebyak&quot; atau &quot;Mbayak&quot; dari masyarakat Jawa. Ada pendapat yang menyatakan kebaya berasal dari China. Lalu menyebar ke Malaka, Jawa, Bali, Sumatra, dan Sulawesi. Setelah akulturasi yang berlangsung ratusan tahun, pakaian itu diterima di budaya dan norma setempat. Namun ada juga pendapat bahwa kebaya memang asli dari Indonesia. Ada juga teori yang mengatakan bahwa kebaya mulai dikenal di Indonesia khususnya di Jawa seiring dengan penyebaran agama Islam pada abad ke 13. Hal ini bisa dihubungkan dengan teori penyebaran agama Islam yang dilakukan okeh wali songo dan fakta sejarah yang mengatakan wali songo adalah keturunan cina. Sesuai juga dengan fakta sejarah bahwa laksamana Chengho selain melakukan hubungan dagang juga menyebarkan agama Islam. Ada juga yang mengatakan bahwa kebaya bukan berasal dari China karena pakaian asli China adalah Cheongsam yang berbeda dari kebaya. Hal ini tidak benar, karena kebaya berasal dari 'Bei zi' baju dynasty Song dan Ming, sedangkan cheongsam baru mulai dikenal sejak jaman dynasty Ching atau manchu. Kebaya merupakan adaptasi dari 'Bei zi' yang disesuaikan dengan kondisi iklim tropis. Pada awal mulanya kebaya hanya digunakan oleh para bangsawan. Bentuk paling awal dari kebaya di Jawa dapat dilihat dari Keraton Majapahit yang dikenakan para permaisuri atau selir raja. sebagai sarana untuk memadukan perempuan Kemban yang ada, tubuh bungkus dari perempuan aristokrat menjadi lebih sederhana dan dapat diterima oleh yang baru memeluk agama Islam. Aceh, Riau dan Johor dan Sumatra Utara mengadopsi gaya kebaya Jawa sebagai sarana ekspresi sosial status dengan penguasa Jawa yang lebih alus atau halus. Nama kebaya sebagai pakaian tertentu telah dicatat oleh Portugal saat mendarat di Jawa. Kebaya Jawa seperti yang ada sekarang telah dicatat oleh Thomas Stamford Bingley Raffles di 1817, sebagai sutra, brokat dan beludru, dengan pembukaan pusat dari blus diikat oleh bros, bukan tombol dan tombol-lubang di atas batang tubuh bungkus kemben, yang kain (dan pisahkan bungkus kain beberapa meter panjang keliru diberi istilah 'sarung di Inggris (sarung (aksen Malaysia: sarung) dijahit untuk membentuk tabung, seperti pakaian Barat). Penggunaan brokat merupakan pengaruh dari Portugis. "
                         android:textColor="#FFFFFF" />
 
                 </LinearLayout>
@@ -106,6 +111,7 @@
                         android:id="@+id/textView19"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="인도네시아 민족 복장은 인도네시아 공화국을 대표하는 민족 복장입니다. 의상은 인도네시아 문화와 인도네시아 전통 섬유 전통에서 비롯됩니다. 현재 인도네시아에서 가장 잘 알려진 국립 의상은 바틱과 케 바야이지만,이 의상의 원본은 주로 자바어와 발리 문화에 있으며 주로 자바어, 순 다네 및 발리 문화에 영향을 미칩니다. 자바가 인도네시아 정치와 인구의 중심이되면서이 섬의 염소 의상은 국가적 지위로 상승했다."
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -121,6 +127,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="바틱"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -128,6 +135,7 @@
                         android:id="@+id/textView28"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text='Batik은 밤에 직물에 쓰거나 밤을 적용하여 구체적으로 만들어진 그림 직물이며, 처리는 특정 성을 가진 특정 방식으로 처리됩니다. 유네스코는 2009 년 10 월 2 일부터 인도네시아 바틱을 기술, 기술, 관련 주제 및 문화의 개발로 구두 및 비 문화 문화를위한 인도주의 유산 (구두 및 무형 문화 유산의 걸작)으로 지정했습니다. 바틱은 예술적 가치가 높고 오랫동안 인도네시아 문화 (특히 자바)의 일부인 공예품입니다. 과거의 Javanese 여성들은 바틱을 생계로 만드는 데 기술을 사용하여 과거 바틱 작업은 남성 이이 분야에 들어갈 수있는 "Batik Cap"이 발견 될 때까지 독점적으로 여성의 작업이었습니다. 이 현상에는 몇 가지 예외가 있습니다. 즉 해안 바틱은 "메가 멘둥 (Mega Mendung)"스타일에서 볼 수있는 남성 라인이 있으며 일부 해안 지역에서는 바틱 작업이 남성에게 일반적입니다. 바틱 제작의 전통은 원래 유전 적 전통이기 때문에 때로는 특정 가족 바틱에서 주제를 확인할 수 있습니다. 일부 바틱 주제는 다른 사람의 상태를 보여줄 수 있습니다. 오늘날에도 일부 전통 바틱 모티프는 족 자카르타와 수라 카르타 궁전 가족 만 사용합니다. 바틱은 오늘날에도 여전히 존재하는 인도네시아 (Javanese) 조상의 유산입니다. 바틱은 당시 유엔 회의에서 바틱을 입었던 수하르토 대통령에 의해 세계에 처음 소개되었다. '
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -143,6 +151,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="케바야"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -150,6 +159,7 @@
                         android:id="@+id/textView29"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="케 바야 (Kebaya)는 사롱, 바틱 또는 화려한 모티프가있는 송켓과 같은 다른 전통적인 니트 의류로 만든 얇은 소재로 만든 인도네시아 여성들이 입는 전통 블라우스입니다. kebaya라는 단어의 유래는 의류를 의미하는 아라비아어 abaya에서 유래 한 것이지만 다른 버전에서는 Javanese 사회의 &quot;Kebyak&quot;또는 &quot;Mbayak&quot;이라는 단어에서 유래했습니다. kebaya가 중국에서 온다는 의견이 있습니다. 그런 다음 말라카, 자바, 발리, 수마트라 및 술라웨시로 퍼졌습니다. 수백 년간의 숙달 후, 옷은 현지 문화와 규범으로 받아 들여졌습니다. 그러나 kebaya가 실제로 인도네시아 출신이라는 의견도 있습니다. 또한 케 바야가 인도네시아, 특히 자바에서 13 세기 이슬람의 확산과 함께 알려지기 시작했다는 이론이 있는데, 이것은 wali songo에 의한 이슬람의 확산 이론과 wali songo가 중국 출신이라고하는 역사적 사실과 관련이있을 수있다. 또한 역사적인 관계에 따라 상업 관계를 수행하는 것 외에도 Chengho 제독이 이슬람을 확산 시켰습니다. 중국의 오리지널 의류가 kebaya와 다른 치파오이기 때문에 kebaya가 중국에서 유래하지 않았다고 말하는 사람들도 있습니다. kebaya는 노래와 명나라의 '베이지 (Bei zi)'왕조에서 비롯된 반면, 치파오는 칭 (Ching)이나 만주의 왕조 시대부터 알려졌다. Kebaya는 열대 기후 조건에 적합한 'Bei zi'의 적응입니다. 처음에 kebaya는 귀족들만 사용했습니다. 자바에서 가장 오래된 형태의 케 바야는 황후 또는 왕의 첩이 착용 한 마자 파 히트 궁전에서 볼 수 있습니다. 기존의 켐반 여성을 통합하는 수단으로 귀족 여성의 신체 랩은 더 간단하고 이슬람에 익숙하지 않은 사람들이 받아 들일 수 있습니다. Aceh, Riau 및 Johor와 North Sumatra는보다 세련되거나 세련된 Javanese 통치자와 함께 사회적 지위를 표현하는 수단으로 Javanese kebaya 스타일을 채택했습니다. 특정 의류로서의 kebaya라는 이름은 Java에 착륙 할 때 포르투갈에 의해 언급되었습니다. Javanese kebaya는 1817 년 Thomas Stamford Bingley Raffles에 의해 실크, 브로케이드 및 벨벳으로 기록되었으며, 블라우스의 중앙 개구부는 천으로 싸여있는 래퍼의 트렁크에있는 버튼 및 버튼 구멍이 아닌 브로치로 묶여 있습니다. 영국의 사롱 Saong (말레이시아어 발음 : 사롱)이라는 용어는 서양 옷과 같은 튜브를 만들기 위해 꿰매어졌다. "
                         android:textColor="#FFFFFF" />
 
                 </LinearLayout>
