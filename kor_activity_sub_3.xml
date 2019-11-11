@@ -42,6 +42,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="Kimchi"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -49,6 +50,7 @@
                         android:id="@+id/textView18"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Kimchi adalah salah satu makanan tradisional Korea. Kubis dan lobak Cina diasinkan dengan garam kasar, dicuci, dan kemudian dibumbui dengan bubuk cabai merah, bawang hijau, bawang putih dan jahe dan dicampur dengan ikan asin. Meskipun ada banyak jenis kimchi, kimchi pedas, yang umumnya dikenal, mewakili bumbu seperti bubuk lada merah dan ikan asin. Di Korea, proses pembuatan dan jenisnya berbeda. Ini juga merupakan makanan yang secara resmi ditunjuk untuk Olimpiade, Asian Games, dan Piala Dunia FIFA."
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -64,6 +66,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="Bulgogi"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -71,6 +74,7 @@
                         android:id="@+id/textView23"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Bulgogi adalah hidangan tradisional Korea yang terbuat dari daging sapi, dibumbui dengan sayuran, dan buatan sendiri. Terdapat juga Bulgogi yang terbuat dari daging babi. Pada dasarnya merupakan daging panggang dengan sedikit urat dan sedikit lemak yang nikmat dan empuk, jadi seperti tenderloin atau sirloin adalah jenis yang paling umum dimasak."
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -86,6 +90,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="Bibimbap"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -93,6 +98,7 @@
                         android:id="@+id/textView24"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Bibimbap atau Agitated (攪 飯) adalah salah satu masakan tradisional Korea, makanan itu adalah campuran daging, rempah, telur dan bumbu seperti pasta cabai merah, minyak wijen, dan campuran. Ada berbagai jenis bibimbap tergantung pada wilayahnya, terutama Jeonju Bibimbap. Nasi campur dengan westernisasi baru-baru ini berfungsi untuk diet, fusi bibimbap yang terbuat dari berbagai bahan telah muncul, atau bibimbap dari lemak yang dilupakan dibuat kembali dan lebih dimodernisasi."
                         android:textColor="#FFFFFF" />
 
                 </LinearLayout>
@@ -117,6 +123,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="김치"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -124,6 +131,7 @@
                         android:id="@+id/textView28"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="김치는 한국의 전통 음식중 으뜸이다. 배추, 무 등을 굵은 소금에 절여 씻은 다음 고춧가루, 파, 마늘, 생강 등의 양념과 젓갈을 넣어 버무려 만드는 한국의 저장 발효식품이다. 김치의 종류는 많지만 일반적으로 알려진 매운 김치의 경우, 대표적인 조미료는 고춧가루와 젓갈 등이며, 한국에서는 지방마다 제조 과정이나 종류가 조금씩 다르다. 올림픽, 아시안 게임, FIFA 월드컵 공식 지정 식품이기도 하다."
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -139,6 +147,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="불고기"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -146,6 +155,7 @@
                         android:id="@+id/textView29"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="불고기는 쇠고기를 양념에 재우고 야채를 넣고 자작하게 만든 한국의 전통 요리이다. 돼지고기로 만든 것은 따로 돼지 불고기라고 한다. 구이에는 결합 조직이 적고 지방이 조금씩 산재해 있는 고기가 맛이 있고 연하기 때문에 안심이나 등심 등의 부위가 가장 많이 사용된다."
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -161,6 +171,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="비빔밥"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -168,6 +179,7 @@
                         android:id="@+id/textView30"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="비빔밥 또는 교반(攪飯)은 한국의 전통 요리의 하나로, 밥에 고기나 나물, 달걀 등과 고추장, 참기름 등 양념을 넣고 비벼서 섞어 먹는 음식이다. 지역에 따라 여러 가지 비빔밥이 있는데, 특히 전주비빔밥이 유명하다. 최근 식단이 서구화되면서, 다양한 재료를 활용한 퓨전 비빔밥이 등장하거나, 잊혀져가는 지방의 비빔밥을 재해석해 현대화하기도 한다."
                         android:textColor="#FFFFFF" />
 
                 </LinearLayout>
