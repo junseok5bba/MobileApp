@@ -1,0 +1,92 @@
+package com.hanin_project;
+
+import android.content.Intent;
+import android.os.Bundle;
+import androidx.appcompat.app.AppCompatActivity;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.LinearLayout;
+
+public class IndActivity_4 extends AppCompatActivity {
+    private View indLayout, korLayout;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.ind_activity_sub_4);
+        this.InitializeView();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+
+        inflater.inflate(R.menu.lan_menu, menu);
+
+        return true;
+    }
+
+    public void InitializeView() {
+        indLayout = (LinearLayout) findViewById(R.id.indLayout);
+        korLayout = (LinearLayout) findViewById(R.id.korLayout);
+    }
+    public void ind_map_1(View view) {
+        switch (view.getId ()) {
+            case R.id.ind1:
+                Intent inten = new Intent( getApplicationContext (), IndMapActivity_1.class );
+                startActivity ( inten );
+        }
+    }
+    public void ind_map_2(View view) {
+        switch (view.getId ()) {
+            case R.id.ind2:
+                Intent inten = new Intent( getApplicationContext (), IndMapActivity_2.class );
+                startActivity ( inten );
+        }
+    }
+    public void ind_map_3(View view) {
+        switch (view.getId ()) {
+            case R.id.ind3:
+                Intent inten = new Intent( getApplicationContext (), IndMapActivity_3.class );
+                startActivity ( inten );
+        }
+    }
+    public void ind_map_4(View view) {
+        switch (view.getId ()) {
+            case R.id.ind4:
+                Intent inten = new Intent( getApplicationContext (), IndMapActivity_1.class );
+                startActivity ( inten );
+        }
+    }
+    public void ind_map_5(View view) {
+        switch (view.getId ()) {
+            case R.id.ind5:
+                Intent inten = new Intent( getApplicationContext (), IndMapActivity_2.class );
+                startActivity ( inten );
+        }
+    }
+    public void ind_map_6(View view) {
+        switch (view.getId ()) {
+            case R.id.ind6:
+                Intent inten = new Intent( getApplicationContext (), IndMapActivity_3.class );
+                startActivity ( inten );
+        }
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.kor_indonesian:
+                indLayout.setVisibility(View.VISIBLE);
+                korLayout.setVisibility(View.INVISIBLE);
+                break;
+            case R.id.kor_korean:
+                indLayout.setVisibility(View.INVISIBLE);
+                korLayout.setVisibility(View.VISIBLE);
+                break;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+}
