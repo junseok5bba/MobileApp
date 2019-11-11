@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KorActivity_6"
+    android:background="#8a55c7">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/indLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <VideoView
+                        android:id="@+id/videoView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="240dp" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Jeongseon Arirang"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Jeongseon Arirang adalah salah satu lagu daerah Korea. Ini adalah yang tertua dari semua lagu rakyat Korea dan dianggap sebagai tuntunan dari semua jenis music rakyat Arirang. Lagu itu mulai dinyanyikan setidaknya 600 tahun yang lalu. Segera setelah didirikannya dinasti Joseon, para pelayan Koryo melarikan diri ke Jeongseon, bersembunyi, dan menyanyikan pengabdian mereka dalam sebuah lagu. Awalnya lagu ini bernama Arari, yang kemudian berganti nama menjadi Arirang."
+                        android:textColor="#FFFFFF" />
+
+                    <VideoView
+                        android:id="@+id/videoView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="240dp" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Nodeul Riverside"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sungai Nodeul adalah lagu baru yang ditulis oleh Shinbulchul pada 1930-an dan ditulis oleh Munhowol. Liriknya dimulai dengan “The Nodeul River Bombards”, dan semangat mengirim dunia ke air pun muncul. Irama dasar adalah irama Semachi sembilan malam, dan masih banyak disebut karena jelas dan ceria."
+                        android:textColor="#FFFFFF" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/korLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="invisible">
+
+                    <VideoView
+                        android:id="@+id/videoView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="240dp" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="정선 아리랑"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="정선아리랑은 대한민국의 민요 중 하나이다. 모든 아리랑 가운데에서 가장 역사가 오래 되었으며, 모든 아리랑의 원조로 평가받고 있다. 이 노래가 불리기 시작한 것은 적어도 600년 이전부터이다. 조선 건국 직후에 고려를 섬기던 신하들이 정선 지방으로 피신하여 숨어 지내면서 자신들의 정한을 노래에 담아 불렀다고 하는데, 이것이 그 이전부터 불리던 정선 지역 토속민요와 만나 정선아리랑의 기원을 이룬 것으로 추측하고 있다. 본래 이 노래는 아라리라고 불렸는데, 훗날 '아리랑'으로 이름이 바뀌었다."
+                        android:textColor="#FFFFFF" />
+
+                    <VideoView
+                        android:id="@+id/videoView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="240dp" />
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="노들강변"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView34"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="노들강변은 1930년대 신불출이 작사하고, 문호월이 작곡한 신민요다. “노들강변 봄버들”로 시작되는 가사에 세상의 한을 물에 띄워 보내는 심정을 읊었다. 기본 장단은 9박의 세마치장단이며 맑고 경쾌해서 여전히 널리 불린다."
+                        android:textColor="#FFFFFF" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
