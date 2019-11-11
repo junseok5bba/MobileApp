@@ -1,0 +1,158 @@
+package com.hanin_project;
+
+import android.content.Intent;
+import android.net.Uri;
+import android.os.Bundle;
+import androidx.appcompat.app.AppCompatActivity;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.LinearLayout;
+
+public class MainActivity extends AppCompatActivity {
+    private View IndLayout, KorLayout;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate ( savedInstanceState );
+        setContentView ( R.layout.activity_main);
+        this.InitializeView();
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+
+        inflater.inflate(R.menu.main_menu, menu);
+
+        return true;
+    }
+    public void InitializeView(){
+        IndLayout = (LinearLayout)findViewById(R.id.IndLayout);
+        KorLayout = (LinearLayout)findViewById(R.id.KorLayout);
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch(item.getItemId())
+        {
+            case R.id.indonesian:
+                IndLayout.setVisibility(View.VISIBLE);
+                KorLayout.setVisibility(View.INVISIBLE);
+                break;
+            case R.id.korean:
+                IndLayout.setVisibility(View.INVISIBLE);
+                KorLayout.setVisibility(View.VISIBLE);
+                break;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+    public void btntop1(View view) {
+        switch (view.getId ()) {
+            case R.id.ind_top_image:
+                Intent inte = new Intent( Intent.ACTION_VIEW, Uri.parse ( "https://namu.wiki/w/%EC%9D%B8%EB%8F%84%EB%84%A4%EC%8B%9C%EC%95%84" ) );
+                startActivity ( inte );
+        }
+    }
+
+    public void ind_icon1(View view) {
+        switch (view.getId ()) {
+            case R.id.ind_menu_icon_1:
+                Intent inten = new Intent( getApplicationContext (), IndActivity_1.class );
+                startActivity ( inten );
+        }
+    }
+
+    public void ind_icon2(View view) {
+        switch (view.getId ()) {
+            case R.id.ind_menu_icon_2:
+                Intent inten = new Intent( getApplicationContext (), IndActivity_2.class );
+                startActivity ( inten );
+        }
+    }
+
+    public void ind_icon3(View view) {
+        switch (view.getId ()) {
+            case R.id.ind_menu_icon_3:
+                Intent inten = new Intent( getApplicationContext (), IndActivity_3.class );
+                startActivity ( inten );
+        }
+    }
+
+    public void ind_icon4(View view) {
+        switch (view.getId ()) {
+            case R.id.ind_menu_icon_4:
+                Intent inten = new Intent( getApplicationContext (), IndActivity_4.class );
+                startActivity ( inten );
+        }
+    }
+
+    public void ind_icon5(View view) {
+        switch (view.getId ()) {
+            case R.id.ind_menu_icon_5:
+                Intent inten = new Intent( getApplicationContext (), IndActivity_5.class );
+                startActivity ( inten );
+        }
+    }
+
+    public void ind_icon6(View view) {
+        switch (view.getId ()) {
+            case R.id.ind_menu_icon_6:
+                Intent inten = new Intent( getApplicationContext (), IndActivity_6.class );
+                startActivity ( inten );
+        }
+    }
+    public void btntop2(View view) {
+        switch (view.getId ()) {
+            case R.id.kor_top_image:
+                Intent inte = new Intent( Intent.ACTION_VIEW, Uri.parse ( "https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD" ) );
+                startActivity ( inte );
+        }
+    }
+
+    public void kor_icon1(View view) {
+        switch (view.getId ()) {
+            case R.id.kor_menu_icon_1:
+                Intent inten = new Intent( getApplicationContext (), KorActivity_1.class );
+                startActivity ( inten );
+        }
+    }
+
+    public void kor_icon2(View view) {
+        switch (view.getId ()) {
+            case R.id.kor_menu_icon_2:
+                Intent inten = new Intent( getApplicationContext (), KorActivity_2.class );
+                startActivity ( inten );
+        }
+    }
+
+    public void kor_icon3(View view) {
+        switch (view.getId ()) {
+            case R.id.kor_menu_icon_3:
+                Intent inten = new Intent( getApplicationContext (), KorActivity_3.class );
+                startActivity ( inten );
+        }
+    }
+
+    public void kor_icon4(View view) {
+        switch (view.getId ()) {
+            case R.id.kor_menu_icon_4:
+                Intent inten = new Intent( getApplicationContext (), KorActivity_4.class );
+                startActivity ( inten );
+        }
+    }
+
+    public void kor_icon5(View view) {
+        switch (view.getId ()) {
+            case R.id.kor_menu_icon_5:
+                Intent inten = new Intent( getApplicationContext (), KorActivity_5.class );
+                startActivity ( inten );
+        }
+    }
+
+    public void kor_icon6(View view) {
+        switch (view.getId ()) {
+            case R.id.kor_menu_icon_6:
+                Intent inten = new Intent( getApplicationContext (), KorActivity_6.class );
+                startActivity ( inten );
+        }
+    }
+}
