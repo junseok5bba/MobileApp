@@ -1,0 +1,37 @@
+package com.hanin_project;
+
+import androidx.fragment.app.FragmentActivity;
+
+import android.os.Bundle;
+
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
+
+public class KorMapActivity_1 extends FragmentActivity implements OnMapReadyCallback {
+    GoogleMap mMap;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.kor_map_1);
+
+        SupportMapFragment mapFragment = (SupportMapFragment)getSupportFragmentManager().findFragmentById(R.id.kor_map1);
+        mapFragment.getMapAsync(this);
+    }
+
+    public void onMapReady(GoogleMap googleMap){
+        mMap = googleMap;
+
+        LatLng ind = new LatLng(37.551231, 126.988225 );
+
+        MarkerOptions makerOptions = new MarkerOptions();
+        makerOptions.position(ind)
+                .title("Menara Namsan Seoul / 남산서울타워");
+
+        mMap.addMarker(makerOptions);
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(ind));
+    }
+}
