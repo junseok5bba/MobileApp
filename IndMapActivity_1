@@ -1,0 +1,38 @@
+package com.hanin_project;
+
+import androidx.fragment.app.FragmentActivity;
+
+import android.os.Bundle;
+
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
+
+public class IndMapActivity_1 extends FragmentActivity implements OnMapReadyCallback {
+    GoogleMap mMap;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.ind_map_1);
+
+        SupportMapFragment mapFragment = (SupportMapFragment)getSupportFragmentManager().findFragmentById(R.id.ind_map1);
+        mapFragment.getMapAsync(this);
+    }
+
+    public void onMapReady(GoogleMap googleMap){
+        mMap = googleMap;
+
+        LatLng ind = new LatLng(-7.607355,110.203804);
+
+        MarkerOptions makerOptions = new MarkerOptions();
+        makerOptions.position(ind)
+                .title("Candi Borobudur / 보로부두르 사원");
+
+        mMap.addMarker(makerOptions);
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(ind));
+    }
+}
+
