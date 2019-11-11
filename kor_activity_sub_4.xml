@@ -43,6 +43,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text='"Menara Namsan Seoul" yang penuh cinta'
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -50,6 +51,7 @@
                         android:id="@+id/textView18"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Namsan Seoul Tower, terletak di puncak Gunung Namsan, tingginya 236,7m dan 497,7m di atas permukaan laut. Restoran di lantai 7 berputar 360 ° dan menawarkan pemandangan kota Seoul yang indah. Pemandangan malamnya indah, menjadikannya tempat yang tepat bagi pecinta yang ingin berkencan"
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -66,6 +68,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="Istana Gyeongbokgung Joseon"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -73,6 +76,7 @@
                         android:id="@+id/textView23"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Istana ini didirikan pada 1395 (tahun ke-4 Taejo). '경복 (景福)' adalah kata dari kota, yang berarti bahwa raja, keturunannya, dan semua orang ingin menikmati berkat besar dari sabuk Taiping. Secara feng shui secara geografis, Gunung Baekak berada di belakang dan dikelilingi oleh Naksan dan Inwangsan di sebelah kiri dan kanan. Pada 1592, ia dipindahkan ke Istana Changdeokgung setelah kebakaran akibat Perang Imjin dan dibangun kembali pada 1865 (Gojong 2 tahun) di bawah komando Heungseondaewon. Selama masa kolonial Jepang, banyak tempat perang yang rusak, termasuk bangunan Gedung Gubernur Jenderal, tetapi pekerjaan restorasi sebagian telah selesai karena proyek restorasi seperti pemindahan bangunan Gubernur Jenderal sejak tahun 1990-an. Itu tetap tidak berubah. Daerah ini 432.703 m2 dan tetap 500m timur-barat dan 700m utara-selatan"
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -89,6 +93,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="Taman Nuri Perdamaian Imjingak"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -96,6 +101,7 @@
                         android:id="@+id/textView24"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="Taman Imjingak Peace Nuri ini terletak di dekat DMZ (Zona Perbatasan Korsel-Korut), terdapat juga lokomotif kereta yang sudah berkarat selama Perang Korea, dan mangyangbi merupakan sebuah pesan berisi keinginan orang-orang terlantar yang tanah airnya adalah Korea Utara. Pada akhir perang, para tahanan yang dibebaskan pada akhir perang ditulis dengan surat-surat dari berbagai aspirasi. Pergilah ke bukit-bukit angin di dalam taman dan saksikan karya-karya harapan untuk penyatuan, yang juga terkenal dengan banyak kincir dan patung bambu raksasa."
                         android:textColor="#FFFFFF" />
 
                 </LinearLayout>
@@ -121,6 +127,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="사랑 가득 ‘남산서울타워’"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -128,6 +135,7 @@
                         android:id="@+id/textView28"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="남산 정상에 위치한 남산서울타워는 높이 236.7m, 해발 497.7m의 탑이다. 7층의 레스토랑은 360°회전하며 서울 시내를 한 눈에 조망할 수 있는데 특히 야경이 아름다워 데이트를 즐기려는 연인들이 관광하기 좋은 명소이다."
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -144,6 +152,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="조선의 법궁 ‘경복궁’"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -151,6 +160,7 @@
                         android:id="@+id/textView29"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="1395년(태조 4년)에 창건하였다. ‘경복(景福)’은 시경에 나오는 말로 왕과 그 자손, 온 백성들이 태평성대의 큰 복을 누리기를 축원한다는 의미다. 풍수지리적으로도 백악산을 뒤로 하고 좌우에는 낙산과 인왕산으로 둘러싸여 있어 길지의 요건을 갖추고 있다. 1592년, 임진왜란으로 인해 불탄 이후 그 임무를 창덕궁에 넘겨주었다가 1865년(고종 2년)에 흥선대원군의 명으로 중건되었다. 일제 강점기에는 조선총독부 건물을 짓는 등 많은 전각들이 훼손되었으나, 1990년대부터 총독부 건물을 철거하는 등 복원사업을 벌인 덕분에 복원 작업은 현재 부분 완료된 상태다.근정전, 경회루, 향원정, 아미산 굴뚝 등은 훼손되지 않고 그대로 남아 있다. 면적은 432,703m2이며, 동서 500m, 남북 700m 규모로 남아 있다."
                         android:textColor="#FFFFFF" />
 
                     <ImageView
@@ -167,6 +177,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
+                        android:text="임진각 평화누리공원"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp" />
 
@@ -174,6 +185,7 @@
                         android:id="@+id/textView30"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="DMZ근처에 임진각 평화누리 공원 같은 경우에는 옛날 6.25 전쟁 당시에 녹슨 기관차도 복원되어 있고 북한이 고향인 실향민들의 염원을 담은 망향비도 볼 수 있다. 전쟁 막바지에 풀려난 포로들이 넘어왔다고 해서 이름 붙여진 '평화의 다리' 끝에는 다양한 염원을 담은 편지들이 빼곡히 쓰여 있다. 공원 안쪽 '바람의 언덕'에 가서 수많은 바람개비들과 대나무 거인상으로도 유명한 '통일 바라기' 작품도 구경해보자."
                         android:textColor="#FFFFFF" />
 
                 </LinearLayout>
