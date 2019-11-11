@@ -1,0 +1,39 @@
+package com.hanin_project;
+
+import android.os.Bundle;
+import androidx.fragment.app.FragmentActivity;
+
+import com.google.android.gms.maps.OnStreetViewPanoramaReadyCallback;
+import com.google.android.gms.maps.StreetViewPanorama;
+import com.google.android.gms.maps.StreetViewPanoramaFragment;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.StreetViewPanoramaCamera;
+import com.google.android.gms.maps.model.StreetViewPanoramaOrientation;
+
+
+public class KorMapActivity_2 extends FragmentActivity implements OnStreetViewPanoramaReadyCallback {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.kor_map_2);
+        StreetViewPanoramaFragment streetViewPanoramaFragment =
+                (StreetViewPanoramaFragment) getFragmentManager()
+                        .findFragmentById(R.id.kor_map2);
+        streetViewPanoramaFragment.getStreetViewPanoramaAsync(this);
+    }
+
+    @Override
+    public void onStreetViewPanoramaReady(StreetViewPanorama panorama) {
+        panorama.setPosition(new LatLng(37.579624, 126.977120));
+
+        panorama.setStreetNamesEnabled(true);
+        panorama.setPanningGesturesEnabled(true);
+        panorama.setZoomGesturesEnabled(true);
+        panorama.setUserNavigationEnabled(true);
+        panorama.animateTo(
+                new StreetViewPanoramaCamera.Builder()
+                        .orientation(new StreetViewPanoramaOrientation(20, 20))
+                        .zoom(panorama.getPanoramaCamera().zoom)
+                        .build(), 2000);
+    }
+}
