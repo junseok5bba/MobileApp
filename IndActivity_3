@@ -1,0 +1,49 @@
+package com.hanin_project;
+
+import android.os.Bundle;
+import androidx.appcompat.app.AppCompatActivity;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.LinearLayout;
+
+public class IndActivity_3 extends AppCompatActivity {
+    private View indLayout, korLayout;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.ind_activity_sub_3);
+        this.InitializeView();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+
+        inflater.inflate(R.menu.lan_menu, menu);
+
+        return true;
+    }
+
+    public void InitializeView() {
+        indLayout = (LinearLayout) findViewById(R.id.indLayout);
+        korLayout = (LinearLayout) findViewById(R.id.korLayout);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.kor_indonesian:
+                indLayout.setVisibility(View.VISIBLE);
+                korLayout.setVisibility(View.INVISIBLE);
+                break;
+            case R.id.kor_korean:
+                indLayout.setVisibility(View.INVISIBLE);
+                korLayout.setVisibility(View.VISIBLE);
+                break;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+}
