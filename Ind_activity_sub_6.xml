@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IndActivity_6"
+    android:background="#8a55c7">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/indLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <VideoView
+                        android:id="@+id/videoView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="240dp" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp"
+                        android:text="Ampar-Ampar Pisang" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+                        android:text="Lagu daerah yang pertama yang paling populer menurut penulis adalah Ampar-ampar pisang. Lagu ini berasal dari Provinsi Kalimantan Selatan (KalSel) yang diciptakan oleh seseroang yang bernama Hamiedan AC. Lagu ampar-ampar pisang ini berisikan tentang cerita pisang yang diampar, dikerubuti binatang kecil-kecil yang bisa terbang. Binatang-binatang tersebut menyukai aroma pisang, oleh masyarakat Kaliamnatan binatang itu lebih dikenal dengan nama bari-bari. Pada akhir lagu ini, menceritakan tentang binatang yang ditakuti anak-anak kecil zaman dulu (kata “dikitip bidawang”) artinya adalah digigit biawak. Konon menurut cerita rakyat, kata dikitip bidawang itu dipakai untuk menakuti anak-anak yang suka mencuri pisang (kue rimpi) yang masih dalam proses penjemuran, Kutipan Liriknya: Ampar-ampar pisang Pisangku balum masak Masak sabigi, dihurung bari-bari 2x Masak sabigi, dihurung bari-bari 2x " />
+
+                    <VideoView
+                        android:id="@+id/videoView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="240dp" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp"
+                        android:text="Anak Kambing Saya " />
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+                        android:text="Lagu daerah populer kedua ini berjudul “Anak Kambing Saya”, lagu ini asalnya dari Nusa Tenggara Timur, isi lirik dari lagu ini saling sahut menyahut pertamanya bertanya lalu ada yang menjawabnya kemudian dilirik setelahnya secara bergantian. Lagu daerah ini yang kita sering kita dengar sekerang sdikir bebeda dari nada dengan aslinya, karena ada modifikasi menjadi sedikit modern untuk mempertahankan kepopulerannya di mata anak-anak. Sebenarnya masih banyak lagu daerah yang berasal dari NTT yaitu lagu populer lainnya seperti Potong Bebek Angsa. Kutipan Liriknya: Mana dimana anak kambing saya Anak kambing tuan ada di pohon waru Mana dimana jantung hati saya Jantung hati tuan ada di kampung baru " />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/korLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="invisible">
+
+                    <VideoView
+                        android:id="@+id/videoView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="240dp" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp"
+                        android:text="암빠르 암빠르 삐상" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+                        android:text='저자에 따르면 가장 인기있는 민요는 Ampar-ampar pisang입니다. 이 노래는 Hamiedan AC라는 사람이 만든 칼리만탄 남부 (KalSel)에서 온 노래입니다. 이 ampar-ampar pisang의 노래에는 날 수있는 작은 동물들로 둘러싸인 바나나에 관한 이야기가 담겨 있습니다. Kalimantan 사람들에 의해 바나나의 향기와 같은이 동물들은 바리 바리로 더 잘 알려져 있습니다. 이 노래의 끝에서, 그것은 과거의 아이들이 두려워했던 동물의 이야기 ( "비다 왕 인용"이라는 단어)가 모니터 도마뱀에 물린 것을 의미합니다. 민속에 따르면, bidawang이라는 단어는 여전히 건조 과정에있는 바나나 (꿈 케이크)를 훔치기를 좋아하는 아이들을 놀라게하는 데 사용된다고합니다. 가사 : Ampar-ampar pisang Pisangku balum masak Masak sabigi, dihurung bari-bari 2x Masak sabigi, dihurung bari-bari 2x ' />
+
+                    <VideoView
+                        android:id="@+id/videoView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="240dp" />
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp"
+                        android:text="아낙 깜빙 사야" />
+
+                    <TextView
+                        android:id="@+id/textView34"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+                        android:text='두 번째로 인기있는 지역 노래 제목은 "Anak Kambing Saya"입니다.이 노래는 원래 Nusa Tenggara에서 온 노래입니다.이 노래의 가사 내용이 서로에게 먼저 대답 한 다음, 누군가가 대답 한 다음 교대로 눈을 g습니다. 우리가 지금 자주 듣는이 민요는 아이들의 눈에 인기를 유지하기 위해 조금 현대적인 수정이 있기 때문에 원래의 음색과 다릅니다. 실제로 NTT에서 온 많은 지역 노래, 즉 Potong Bebek Angsa와 같은 다른 인기있는 노래가 여전히 있습니다. 가사: Mana dimana anak kambing saya Anak kambing tuan ada di pohon waru Mana dimana jantung hati saya Jantung hati tuan ada di kampung baru ' />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
