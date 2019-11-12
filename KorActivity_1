@@ -47,21 +47,4 @@ public class KorActivity_1 extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
-    /*public void kor1_ind(View view){
-        switch (view.getId())
-        {
-            case R.id.kor1_ind:
-                indLayout.setVisibility(View.VISIBLE);
-                korLayout.setVisibility(View.INVISIBLE);
-
-        }
-    }
-    public void kor1_kor(View view){
-        switch (view.getId())
-        {
-            case R.id.kor1_kor:
-                indLayout.setVisibility(View.INVISIBLE);
-                korLayout.setVisibility(View.VISIBLE);
-        }
-    }*/
 }
