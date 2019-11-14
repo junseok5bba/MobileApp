@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
 
     <ScrollView
@@ -108,6 +109,19 @@
                             android:src="@drawable/ind_menu_6" />
 
                     </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/ind_quiz"
+                            android:layout_width="0dp"
+                            android:layout_height="171dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/quiz_image" />
+
+                    </LinearLayout>
                 </LinearLayout>
 
                 <LinearLayout
@@ -198,9 +212,21 @@
                             android:src="@drawable/kor_menu_6" />
 
                     </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/kor_quiz"
+                            android:layout_width="0dp"
+                            android:layout_height="171dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/quiz_image" />
+
+                    </LinearLayout>
 
                 </LinearLayout>
-
             </FrameLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -216,7 +242,6 @@
                     android:src="@drawable/m_logo1"
                     android:tint="#959595"/>
             </LinearLayout>
-
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
