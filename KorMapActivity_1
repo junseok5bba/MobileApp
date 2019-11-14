@@ -2,12 +2,15 @@ package com.hanin_project;
 
 import androidx.fragment.app.FragmentActivity;
 
+import android.graphics.Bitmap;
+import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
@@ -25,11 +28,18 @@ public class KorMapActivity_1 extends FragmentActivity implements OnMapReadyCall
     public void onMapReady(GoogleMap googleMap){
         mMap = googleMap;
 
-        LatLng ind = new LatLng(37.551231, 126.988225 );
+        LatLng ind = new LatLng(37.551231, 126.988225);
+
+        int height = 250;
+        int width = 250;
+        BitmapDrawable bitmapdraw=(BitmapDrawable)getResources().getDrawable(R.drawable.kor_map_1);
+        Bitmap b=bitmapdraw.getBitmap();
+        Bitmap smallMarker = Bitmap.createScaledBitmap(b, width, height, false);
 
         MarkerOptions makerOptions = new MarkerOptions();
         makerOptions.position(ind)
-                .title("Menara Namsan Seoul / 남산서울타워");
+                .title("Menara Namsan Seoul / 남산서울타워")
+                .icon(BitmapDescriptorFactory.fromBitmap(smallMarker));
 
         mMap.addMarker(makerOptions);
         mMap.moveCamera(CameraUpdateFactory.newLatLng(ind));
