@@ -2,12 +2,15 @@ package com.hanin_project;
 
 import androidx.fragment.app.FragmentActivity;
 
+import android.graphics.Bitmap;
+import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
@@ -27,9 +30,16 @@ public class IndMapActivity_3 extends FragmentActivity implements OnMapReadyCall
 
         LatLng ind = new LatLng(-8.543333,119.489441);
 
+        int height = 250;
+        int width = 250;
+        BitmapDrawable bitmapdraw=(BitmapDrawable)getResources().getDrawable(R.drawable.ind_map_3);
+        Bitmap b=bitmapdraw.getBitmap();
+        Bitmap smallMarker = Bitmap.createScaledBitmap(b, width, height, false);
+
         MarkerOptions makerOptions = new MarkerOptions();
         makerOptions.position(ind)
-                .title("Taman Nasional Komodo / 코모도 국립 공원");
+                .title("Taman Nasional Komodo / 코모도 국립 공원")
+                .icon(BitmapDescriptorFactory.fromBitmap(smallMarker));
 
         mMap.addMarker(makerOptions);
         mMap.moveCamera(CameraUpdateFactory.newLatLng(ind));
