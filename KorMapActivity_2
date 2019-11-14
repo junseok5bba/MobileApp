@@ -1,39 +1,48 @@
 package com.hanin_project;
 
-import android.os.Bundle;
 import androidx.fragment.app.FragmentActivity;
 
-import com.google.android.gms.maps.OnStreetViewPanoramaReadyCallback;
-import com.google.android.gms.maps.StreetViewPanorama;
-import com.google.android.gms.maps.StreetViewPanoramaFragment;
+import android.graphics.Bitmap;
+import android.graphics.drawable.BitmapDrawable;
+import android.os.Bundle;
+
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.StreetViewPanoramaCamera;
-import com.google.android.gms.maps.model.StreetViewPanoramaOrientation;
+import com.google.android.gms.maps.model.MarkerOptions;
 
-
-public class KorMapActivity_2 extends FragmentActivity implements OnStreetViewPanoramaReadyCallback {
+public class KorMapActivity_2 extends FragmentActivity implements OnMapReadyCallback {
+    GoogleMap mMap;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.kor_map_2);
-        StreetViewPanoramaFragment streetViewPanoramaFragment =
-                (StreetViewPanoramaFragment) getFragmentManager()
-                        .findFragmentById(R.id.kor_map2);
-        streetViewPanoramaFragment.getStreetViewPanoramaAsync(this);
+
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.kor_map2);
+        mapFragment.getMapAsync(this);
     }
 
-    @Override
-    public void onStreetViewPanoramaReady(StreetViewPanorama panorama) {
-        panorama.setPosition(new LatLng(37.579624, 126.977120));
+    public void onMapReady(GoogleMap googleMap){
+        mMap = googleMap;
 
-        panorama.setStreetNamesEnabled(true);
-        panorama.setPanningGesturesEnabled(true);
-        panorama.setZoomGesturesEnabled(true);
-        panorama.setUserNavigationEnabled(true);
-        panorama.animateTo(
-                new StreetViewPanoramaCamera.Builder()
-                        .orientation(new StreetViewPanoramaOrientation(20, 20))
-                        .zoom(panorama.getPanoramaCamera().zoom)
-                        .build(), 2000);
+        LatLng ind = new LatLng(37.579624, 126.977120);
+
+        int height = 250;
+        int width = 250;
+        BitmapDrawable bitmapdraw=(BitmapDrawable)getResources().getDrawable(R.drawable.kor_map_2);
+        Bitmap b=bitmapdraw.getBitmap();
+        Bitmap smallMarker = Bitmap.createScaledBitmap(b, width, height, false);
+
+        MarkerOptions makerOptions = new MarkerOptions();
+        makerOptions.position(ind)
+                .title("Istana Gyeongbokgung Joseon/경복궁")
+                .icon(BitmapDescriptorFactory.fromBitmap(smallMarker));
+
+        mMap.addMarker(makerOptions);
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(ind));
     }
 }
+
