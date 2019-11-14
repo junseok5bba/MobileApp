@@ -2,12 +2,15 @@ package com.hanin_project;
 
 import androidx.fragment.app.FragmentActivity;
 
+import android.graphics.Bitmap;
+import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
@@ -27,12 +30,18 @@ public class KorMapActivity_3 extends FragmentActivity implements OnMapReadyCall
 
         LatLng ind = new LatLng(37.892324, 126.743179);
 
+        int height = 250;
+        int width = 250;
+        BitmapDrawable bitmapdraw=(BitmapDrawable)getResources().getDrawable(R.drawable.kor_map_3);
+        Bitmap b=bitmapdraw.getBitmap();
+        Bitmap smallMarker = Bitmap.createScaledBitmap(b, width, height, false);
+
         MarkerOptions makerOptions = new MarkerOptions();
         makerOptions.position(ind)
-                .title("Taman Nuri Perdamaian Imjingak / 임진각 평화누리공원");
+                .title("Taman Nuri Perdamaian Imjingak / 임진각 평화누리공원")
+                .icon(BitmapDescriptorFactory.fromBitmap(smallMarker));
 
         mMap.addMarker(makerOptions);
         mMap.moveCamera(CameraUpdateFactory.newLatLng(ind));
     }
 }
-
