@@ -2,12 +2,15 @@ package com.hanin_project;
 
 import androidx.fragment.app.FragmentActivity;
 
+import android.graphics.Bitmap;
+import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
@@ -27,12 +30,18 @@ public class IndMapActivity_1 extends FragmentActivity implements OnMapReadyCall
 
         LatLng ind = new LatLng(-7.607355,110.203804);
 
+        int height = 250;
+        int width = 250;
+        BitmapDrawable bitmapdraw=(BitmapDrawable)getResources().getDrawable(R.drawable.ind_map_1);
+        Bitmap b=bitmapdraw.getBitmap();
+        Bitmap smallMarker = Bitmap.createScaledBitmap(b, width, height, false);
+
         MarkerOptions makerOptions = new MarkerOptions();
         makerOptions.position(ind)
-                .title("Candi Borobudur / 보로부두르 사원");
+                .title("Candi Borobudur / 보로부두르 사원")
+                .icon(BitmapDescriptorFactory.fromBitmap(smallMarker));
 
         mMap.addMarker(makerOptions);
         mMap.moveCamera(CameraUpdateFactory.newLatLng(ind));
     }
 }
-
