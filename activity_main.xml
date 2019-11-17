@@ -119,6 +119,7 @@
                             android:layout_width="0dp"
                             android:layout_height="171dp"
                             android:layout_weight="1"
+                            android:onClick="ind_icon_Quiz"
                             android:src="@drawable/quiz_image" />
 
                     </LinearLayout>
@@ -222,6 +223,7 @@
                             android:layout_width="0dp"
                             android:layout_height="171dp"
                             android:layout_weight="1"
+                            android:onClick="kor_icon_Quiz"
                             android:src="@drawable/quiz_image" />
 
                     </LinearLayout>
