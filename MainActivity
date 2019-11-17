@@ -155,4 +155,18 @@ public class MainActivity extends AppCompatActivity {
                 startActivity ( inten );
         }
     }
+    public void ind_icon_Quiz(View view) {
+        switch (view.getId ()) {
+            case R.id.ind_quiz:
+                Intent inten = new Intent( getApplicationContext (), StartingScreenActivity.class );
+                startActivity ( inten );
+        }
+    }
+    public void kor_icon_Quiz(View view) {
+        switch (view.getId ()) {
+            case R.id.kor_quiz:
+                Intent inten = new Intent( getApplicationContext (), StartingScreenActivity.class );
+                startActivity ( inten );
+        }
+    }
 }
