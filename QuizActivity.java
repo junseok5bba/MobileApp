@@ -58,7 +58,7 @@ public class QuizActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_quiz);
+        setContentView(R.layout.kor_activity_quiz);
 
         textViewQuestion = findViewById(R.id.text_view_question);
         textViewScore = findViewById(R.id.text_view_score);
@@ -81,25 +81,19 @@ public class QuizActivity extends AppCompatActivity {
 
             showNextQuestion();
         } else {
-            // Restore Values after Changing Mobile Orientation
             questionList = savedInstanceState.getParcelableArrayList(KEY_QUESTION_LIST);
             questionCountTotal = questionList.size();
             questionCounter = savedInstanceState.getInt(KEY_QUESTION_COUNT);
 
-            // Question Count is always one ahead of Question Index.
-            // Counter = 1. Index = 0.
             currentQuestion = questionList.get(questionCounter -1);
             score = savedInstanceState.getInt(KEY_SCORE);
             timeLeftInMillis = savedInstanceState.getLong(KEY_MILLIS_LEFT);
             answered = savedInstanceState.getBoolean(KEY_ANSWERED);
 
-            // If question was not answered.
             if (answered) {
 
-                // Starts new Countdown timer.
                 startCountDown();
             } else {
-                // Sets right Color to Countdown
                 updateCountDownText();
                 showSolution();
             }
@@ -113,7 +107,7 @@ public class QuizActivity extends AppCompatActivity {
                     if (rb1.isChecked() || rb2.isChecked() || rb3.isChecked()) {
                         checkAnswer();
                     } else {
-                        Toast.makeText(QuizActivity.this, "Please select an answer", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(QuizActivity.this, "답을 골라주세요", Toast.LENGTH_SHORT).show();
                     }
                 } else {
                     showNextQuestion();
@@ -127,7 +121,6 @@ public class QuizActivity extends AppCompatActivity {
         rb2.setTextColor(textColorDefaultRb);
         rb3.setTextColor(textColorDefaultRb);
         rbGroup.clearCheck();
-
         if (questionCounter < questionCountTotal) {
             currentQuestion = questionList.get(questionCounter);
 
@@ -137,11 +130,10 @@ public class QuizActivity extends AppCompatActivity {
             rb3.setText(currentQuestion.getOption3());
 
             questionCounter++;
-            textViewQuestionCount.setText("Question: " + questionCounter + "/" + questionCountTotal);
+            textViewQuestionCount.setText("질문: " + questionCounter + "/" + questionCountTotal);
             answered = false;
-            buttonConfirmNext.setText("Confirm");
+            buttonConfirmNext.setText("확인");
 
-            // Sets Timer to reset after each Question
             timeLeftInMillis = COUNTDOWN_IN_MILLIS;
             startCountDown();
         } else {
@@ -155,7 +147,6 @@ public class QuizActivity extends AppCompatActivity {
             public void onTick(long millisUntilFinished) {
                 timeLeftInMillis = millisUntilFinished;
 
-                // Update Countdown text
                 updateCountDownText();
             }
 
@@ -176,7 +167,6 @@ public class QuizActivity extends AppCompatActivity {
 
         String timeFormatted = String.format(Locale.getDefault(), "%02d:%02d", minutes, seconds);
 
-        // Sets Countdown 00:30.. 00:29.. 00:28
         textViewCountDown.setText(timeFormatted);
 
         if (timeLeftInMillis < 10000) {
@@ -196,7 +186,7 @@ public class QuizActivity extends AppCompatActivity {
 
         if (answerNr == currentQuestion.getAnswerNr()) {
             score++;
-            textViewScore.setText("Score: " + score);
+            textViewScore.setText("점수 : " + score);
         }
 
         showSolution();
@@ -210,26 +200,25 @@ public class QuizActivity extends AppCompatActivity {
         switch (currentQuestion.getAnswerNr()) {
             case 1:
                 rb1.setTextColor(Color.GREEN);
-                textViewQuestion.setText("Answer 1 is correct");
+                textViewQuestion.setText("정답 : 보기 1");
                 break;
             case 2:
                 rb2.setTextColor(Color.GREEN);
-                textViewQuestion.setText("Answer 2 is correct");
+                textViewQuestion.setText("정답 : 보기 2");
                 break;
             case 3:
                 rb3.setTextColor(Color.GREEN);
-                textViewQuestion.setText("Answer 3 is correct");
+                textViewQuestion.setText("정답 : 보기 3");
                 break;
         }
 
         if (questionCounter < questionCountTotal) {
-            buttonConfirmNext.setText("Next");
+            buttonConfirmNext.setText("다음");
         } else {
-            buttonConfirmNext.setText("Finish");
+            buttonConfirmNext.setText("종료");
         }
     }
 
-    // Sends back score to HIGHSCORE on Start Screen
     private void finishQuiz() {
         Intent resultIntent = new Intent();
         resultIntent.putExtra(EXTRA_SCORE, score);
@@ -237,14 +226,13 @@ public class QuizActivity extends AppCompatActivity {
         finish();
     }
 
-    // Accidentally close with back button will still save score.
     @Override
     public void onBackPressed() {
         if (backPressedTime + 2000 > System.currentTimeMillis()) {
             finishQuiz();
             
         } else {
-            Toast.makeText(this, "Press back again to finish", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "뒤로가기 한번 더 누르면 종료됩니다.", Toast.LENGTH_SHORT).show();
         }
 
         backPressedTime = System.currentTimeMillis();
