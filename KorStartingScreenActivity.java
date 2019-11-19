@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class StartingScreenActivity extends AppCompatActivity {
+public class KorStartingScreenActivity extends AppCompatActivity {
 
     public static final int REQUEST_CODE_QUIZ = 1;
 
@@ -24,7 +24,7 @@ public class StartingScreenActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_starting_screen);
+        setContentView(R.layout.kor_activity_starting_screen);
 
         textViewHighScore = findViewById(R.id.text_view_highscore);
 
@@ -43,7 +43,7 @@ public class StartingScreenActivity extends AppCompatActivity {
 
     // Start Quiz Button
     private void startQuiz() {
-        Intent intent = new Intent(StartingScreenActivity.this, QuizActivity.class);
+        Intent intent = new Intent(KorStartingScreenActivity.this, QuizActivity.class);
         startActivityForResult(intent, REQUEST_CODE_QUIZ);
 
     }
