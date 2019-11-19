@@ -24,7 +24,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".StartingScreenActivity"/>
+        <activity android:name=".IndStartingScreenActivity"/>
+        <activity android:name=".IndQuizActivity"/>
+        <activity android:name=".KorStartingScreenActivity"/>
         <activity android:name=".QuizActivity"/>
         <activity android:name=".KorMapActivity_1"/>
         <activity android:name=".KorMapActivity_2"/>
